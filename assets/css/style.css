@@ -55,4 +55,26 @@ h2 {
 
 .active {
     border-bottom: 4px solid #851285;
+    ;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-media-network {
+    text-align: center;
+}
+
+.social-media-network>li {
+    display: inline;
+}
+
+.social-media-network i {
+    font-size: 162%;
+    margin: 2%;
+    padding: 6%;
+    color: #851285;
 }
