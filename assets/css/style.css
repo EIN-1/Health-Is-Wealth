@@ -7,6 +7,19 @@
 }
 
 body {
-    font-family: Noto, serif;
+    font-family: Noto serif, serif;
     font-weight: 300;
+    color: #851285
+}
+}
+
+/* heading and logo */
+
+h1,
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color: #581058
+}
 }
