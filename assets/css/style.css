@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Oswald:wght@200&display=swap');
+@import url ('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Oswald:wght@200&display=swap');
 
 * {
     margin: 0;
@@ -9,17 +9,19 @@
 body {
     font-family: Noto serif, serif;
     font-weight: 300;
-    color: #851285
-}
+    color: #851285;
 }
 
-/* heading and logo */
-
+/* headings and logo */
 h1,
 h2 {
     font-family: Oswald, sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
-    color: #581058
+    color: #581058;
 }
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
