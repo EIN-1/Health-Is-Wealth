@@ -41,7 +41,7 @@ h2 {
 
 #menu li {
     float: right;
-    list-style-type: disc;
+    list-style-type: none;
     margin-right: 30px;
 }
 
@@ -78,4 +78,8 @@ footer {
     margin: 2%;
     padding: 6%;
     color: #851285;
+}
+
+#form {
+    margin-top: 2rem;
 }
