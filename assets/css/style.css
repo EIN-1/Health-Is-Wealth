@@ -51,12 +51,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 4px solid #851285;
+    border-bottom: 3px solid #851285;
 }
 
 .active {
-    border-bottom: 4px solid #851285;
-    ;
+    border-bottom: 3px solid #851285;
 }
 
 /* footer */
@@ -106,4 +105,10 @@ footer {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
+}
+
+#hey {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
 }
