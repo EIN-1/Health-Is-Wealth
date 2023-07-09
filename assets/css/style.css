@@ -69,7 +69,7 @@ h2 {
 #main-image {
     height: 600px;
     width: 100%;
-    background: url('file: ///workspaces/health-is-wealth/assets/images/working%20out%20main.webp') no-repeat center center;
+    background: url('../images/happy-group.jpg') no-repeat center center;
 
     /* animations zoom effects on loading */
     animation-name: main-img-zoom;
@@ -136,7 +136,6 @@ footer {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 .left-abt-heading {
@@ -165,6 +164,6 @@ footer {
 }
 
 #square-cover-bg {
-    background: url('');
+    background: url('../images/yoga-flexible.jpg') no-repeat center center;
     height: 100%;
 }
