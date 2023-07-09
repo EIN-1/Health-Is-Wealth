@@ -67,13 +67,13 @@ h2 {
 }
 
 #main-image {
-    height: 500px;
+    height: 600px;
     width: 100%;
-    background: url('../images/working%20out%20main.webp') no-repeat center center;
+    background: url('file: ///workspaces/health-is-wealth/assets/images/working%20out%20main.webp') no-repeat center center;
 
     /* animations zoom effects on loading */
     animation-name: main-img-zoom;
-    animation-duration: 5s;'
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -136,7 +136,7 @@ footer {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-     background-color: green;
+    background-color: green;
 }
 
 .left-abt-heading {
@@ -144,7 +144,7 @@ footer {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 #hey {
@@ -161,4 +161,10 @@ footer {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
+
+}
+
+#square-cover-bg {
+    background: url('');
+    height: 100%;
 }
