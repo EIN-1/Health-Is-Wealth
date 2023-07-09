@@ -1,4 +1,4 @@
-@import uri ('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Oswald:wght@200&display=swap');
 
 * {
     margin: 0;
@@ -36,7 +36,7 @@ h2 {
 
 #menu,
 #logo {
-    line-height: 72px;
+    line-height: 85px;
 }
 
 #menu li {
@@ -57,6 +57,37 @@ h2 {
 .active {
     border-bottom: 3px solid #851285;
 }
+
+/* main image */
+
+#main-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/working%20out%20main.webp') no-repeat center center;
+
+    /* animations zoom effects on loading */
+    animation-name: main-img-zoom;
+    animation-duration: 5s;'
+    animation-fill-mode: forwards;
+}
+
+/* creat zoom lever for main image */
+@keyframes main-img-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
 
 /* footer */
 
@@ -105,10 +136,29 @@ footer {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
+     background-color: green;
+}
+
+.left-abt-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom:50px;
 }
 
 #hey {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
+}
+
+#square-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
