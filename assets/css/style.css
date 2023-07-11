@@ -132,7 +132,6 @@ h2 {
 }
 
 #center-abt {
-    float: right;
     font-size: large;
     font-weight: bolder;
     text-align: left;
@@ -141,20 +140,6 @@ h2 {
     border-radius: 40px;
     padding: 2rem 3rem;
     background: rgba(150, 196, 94, 0.8);
-}
-
-/* precious life image */
-#life {
-    float: right;
-    font-size: large;
-    font-weight: bolder;
-    text-align: left;
-    width: 25%;
-    border-radius: 50px;
-    min-height: 600px;
-    padding: 2rem 3rem;
-    object-fit: contain;
-    background: url('../images/meditation-woman.webp') no-repeat center center;
 }
 
 /* workout-plan */
@@ -167,8 +152,25 @@ h2 {
     padding: 2rem 3rem;
     width: 20%;
     background-color: yellow;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px;
     box-shadow: 12px 12px 12px 0px rgba(118, 119, 90, 0.607);
+}
 
+/* precious life image */
+
+#life-image{
+    float: left;
+    font-size: large;
+    font-weight: bolder;
+    text-align: left;
+    width: 26%;
+    border-radius: 70px;
+    min-height: 450px;
+    padding: 2rem 3rem;
+    object-fit: contain;
+    background: url('../images/3bmeditation-woman.jpg') no-repeat center center;
 }
 
 
@@ -179,6 +181,7 @@ footer {
     width: 100%;
     text-align: center;
     background-color: rgba(118, 119, 90, 0.607);
+    display: block;
 }
 
 
