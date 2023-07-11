@@ -88,65 +88,6 @@ h2 {
     }
 }
 
-
-
-/* footer */
-
-footer {
-    height: 150px;
-}
-
-.social-media-network {
-    text-align: center;
-}
-
-.social-media-network li {
-    display: inline;
-}
-
-.social-media-network i {
-    font-size: 162%;
-    margin: 2%;
-    padding: 6%;
-    color: #851285;
-}
-
-#form {
-    margin-top: 2rem;
-}
-
-/* fit ethos */
-
-#fit-ethos {
-    height: 600px;
-}
-
-#left-abt {
-    padding-top: 30px;
-    width: 45%;
-    float: left;
-}
-
-#right-abt {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-abt {
-    padding-top: 30px;
-    width: 33%;
-    margin: 0 auto;
-}
-
-.left-abt-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
 #hey {
     text-align: center;
     margin: 20px 0;
@@ -164,18 +105,98 @@ footer {
     text-transform: uppercase;
 }
 
-#square-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
+/* fit ethos */
+
+#left-abt {
+    float: left;
+    font-size: large;
+    font-weight: bolder;
+    text-align: left;
+    width: 26%;
+    border-radius: 40px;
+    min-height: 50px;
+    padding: 2rem 3rem;
+    background-color: rgba(150, 196, 94, 0.8);
+}
+
+#right-abt {
+    float: right;
+    font-size: large;
+    font-weight: bolder;
+    text-align: left;
+    width: 26%;
+    border-radius: 40px;
+    min-height: 50px;
+    padding: 2rem 3rem;
+    background-color: rgba(150, 196, 94, 0.8);
+}
+
+#center-abt {
+    float: right;
+    font-size: large;
+    font-weight: bolder;
+    text-align: left;
     margin: 0 auto;
+    width: 26%;
+    border-radius: 40px;
+    padding: 2rem 3rem;
+    background: rgba(150, 196, 94, 0.8);
+}
+
+/* precious life image */
+#life {
+    float: right;
+    font-size: large;
+    font-weight: bolder;
+    text-align: left;
+    width: 25%;
+    border-radius: 50px;
+    min-height: 600px;
+    padding: 2rem 3rem;
+    object-fit: contain;
+    background: url('../images/meditation-woman.webp') no-repeat center center;
+}
+
+/* workout-plan */
+
+#workout-plan {
+    text-align: left;
+    font-size: large;
+    float: right;
+    font-weight: bolder;
+    padding: 2rem 3rem;
+    width: 20%;
+    background-color: yellow;
+    box-shadow: 12px 12px 12px 0px rgba(118, 119, 90, 0.607);
 
 }
 
-#square-cover-bg {
-    background: url('/workspaces/health-is-wealth/assets/images/small meditation.jpg') no-repeat center center;
-    height: 100%;
+
+/* footer */
+
+footer {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(118, 119, 90, 0.607);
+}
+
+
+.social-media-network {
+    text-align: center;
+}
+
+.social-media-network li {
+    display: inline;
+}
+
+.social-media-network i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #851285;
+}
+
+#form {
+    margin-top: 2rem;
 }
