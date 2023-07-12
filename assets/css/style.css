@@ -149,18 +149,17 @@ h2 {
     font-size: large;
     float: right;
     font-weight: bolder;
+    border-radius: 80px;
+    min-height: 400px;
     padding: 2rem 3rem;
     width: 20%;
     background-color: yellow;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 25px;
-    box-shadow: 12px 12px 12px 0px rgba(118, 119, 90, 0.607);
+    box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
 }
 
 /* precious life image */
 
-#life-image{
+#life-image {
     float: left;
     font-size: large;
     font-weight: bolder;
@@ -177,13 +176,37 @@ h2 {
 /* footer */
 
 footer {
-    height: 150px;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    min-height: 100%;
     width: 100%;
-    text-align: center;
     background-color: rgba(118, 119, 90, 0.607);
-    display: block;
 }
 
+#footer-left {
+    text-align: left;
+    float: left;
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+
+#footer-right {
+    text-align: left;
+    float: right;
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+
+#footer-center {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+/* social medial links */
 
 .social-media-network {
     text-align: center;
@@ -191,14 +214,17 @@ footer {
 
 .social-media-network li {
     display: inline;
+
 }
 
 .social-media-network i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    margin: 0 auto;
+    padding: 1%;
+    font-size: 180%;
     color: #851285;
 }
+
+
 
 #form {
     margin-top: 2rem;
