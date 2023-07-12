@@ -11,61 +11,124 @@
         content="health is wealth, key to internal happiness, fittness wealth, irreplaceable, very precious">
     <meta name="author" content="Elsie Nagawa">
     <link rel="stylesheet" href="assets/css/style.css">
-
     <title>Health is wealth</title>
 </head>
 
 <body>
-    <h1>Health is wealth</h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">home</a>
-            </li>
-            <li>
-                <a href="offers.html">reason</a>
-            </li>
-        </ul>
-    </nav>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Health is wealth</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="contact.html" class="active">Contact</a>
+                </li>
+                <li>
+                    <a href="offers.html">Offers</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <section>
-        <figure>
-            <img src="assets/images/fit old lady.jpg" alt=" fit old lady">
-        </figure>
+        <!-- sign up form --> not done yet
+        <form>
+            <div>
+                <label for="fname">First name: </label>
+                <input id="fname" type="text" name="first-name" placeholder=" Your first name">
+            </div>
+            <div>
+                <label for="lname">Last name: </label>
+                <input id="lname" type="text" name="last-name" placeholder=" Your last name">
+            </div>
+            <div>
+                <label for="email-field">Email: </label>
+                <input id="email-field" type="email" name="email" placeholder=" Your email">
+            </div>
+
+            <!-- select checkbox -->
+            <div>
+                <input id="aerobics-box" type="checkbox" name="aerobics" value="yes">
+                <label for="aerobics-box">Aerobics</label>
+
+                <input id="fitness-box" type="checkbox" name="fitness" value="yes" checked>
+                <label for="fitness-box">Fitness</label>
+
+                <input id="yoga-box" type="checkbox" name="yoga" value="yes">
+                <label for="fitness-box">Yoga</label>
+            </div>
+
+
+            <!-- the input will change to a button --> not yet done
+            <button></button>
+            <div>
+                <input type="submit" value="send">
+            </div>
+        </form>
+
     </section>
 
 
-    <!-- sign up form -->
-    <form>
-        <div>
-            <label for="fname">First name: </label>
-            <input id="fname" type="text" name="first-name" placeholder=" Your first name">
-        </div>
-        <div>
-            <label for="lname">Last name: </label>
-            <input id="lname" type="text" name="last-name" placeholder=" Your last name">
-        </div>
-        <div>
-            <label for="email-field">Email: </label>
-            <input id="email-field" type="email" name="email" placeholder=" Your email">
-        </div>
+    <!-- This is a footer section -->
+    <footer>
+        <div id="footer-main">
+            <div id="footer-left">
+                <!-- address and location -->
+                <h4> Address</h4>
+                <p> Kaufingerstrasse 3, <br> 80331 Munich</p>
+            </div>
+            <div id="footer-right">
+                <!-- copywrite -->
+                <h4><i class="fa-regular fa-copyright"></i> 2023 Health is wealth</h4>
+            </div>
+            <div id="footer-center">
+                <!-- social media likes will open on the next page -->
+                <span>
+                    <h4>Find us on</h4>
+                </span>
+                <br>
+                <ul class="social-media-network">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (Open in a new tab)"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Twitter page (Open in a new tab)"><i
+                                class="fa-brands fa-square-twitter"></i></a>
 
-        <!-- select checkbox -->
-        <div>
-            <input id="aerobics-box" type="checkbox" name="aerobics" value="yes">
-            <label for="aerobics-box">Aerobics</label>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (Open in a new tab)"><i
+                                class="fa-brands fa-square-instagram"></i></a>
 
-            <input id="fitness-box" type="checkbox" name="fitness" value="yes" checked>
-            <label for="fitness-box">Fitness</label>
-
-            <input id="yoga-box" type="checkbox" name="yoga" value="yes">
-            <label for="fitness-box">Yoga</label>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                            arial-label="Visit our Youtube page (Open in a new tab)"><i
+                                class="fa-brands fa-square-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </footer>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/d5664282ad.js" crossorigin="anonymous"></script>
 
-        my send
-        <div>
-            <input type="submit" value="send">
-        </div>
-    </form>
+</body>
+
+</html>
+
+
+
+
+
 </body>
 
 </html>
