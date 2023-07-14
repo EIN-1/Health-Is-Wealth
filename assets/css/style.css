@@ -7,6 +7,7 @@
 }
 
 body {
+    margin: 0;
     font-family: Noto serif, serif;
     font-weight: 300;
     color: #851285;
@@ -69,6 +70,7 @@ h2 {
 #main-image {
     height: 600px;
     width: 100%;
+    object-fit: contain;
     background: url('../images/happy-group.jpg') no-repeat center center;
 
     /* animations zoom effects on loading */
@@ -142,6 +144,73 @@ h2 {
     background: rgba(150, 196, 94, 0.8);
 }
 
+/* what we offer */
+.aerobics {
+    float: left;
+    object-fit: contain;
+    height: 400px;
+    width: 100%;
+    background: url('../images/small meditation.jpg') no-repeat center center;
+    border-radius: 20%;
+}
+
+.fitness {
+    float: right;
+    object-fit: contain;
+    height: 400px;
+    width: 100%;
+    background: url('../images/small meditation.jpg') no-repeat center center;
+    border-radius: 20%;
+}
+
+.yoga {
+    float: right;
+    object-fit: contain;
+    height: 400px;
+    width: 100%;
+    background: url('../images/small meditation.jpg') no-repeat center center;
+    border-radius: 20%;
+}
+
+#fit-aerobics{
+    text-align: left;
+    font-size: large;
+    float: left;
+    font-weight: bolder;
+    border-radius: 100%;
+    min-height: 200px;
+    padding: 5rem 3rem;
+    width: 25%;
+    background-color: yellow;
+    box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
+}
+
+#fit-fitness{
+    text-align: left;
+    font-size: large;
+    float: left;
+    font-weight: bolder;
+    border-radius: 100%;
+    min-height: 200px;
+    padding: 5rem 3rem;
+    width: 25%;
+    background-color: yellow;
+    box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
+}
+
+#fit-yoga{
+    text-align: left;
+    font-size: large;
+    float:left;
+    font-weight: bolder;
+    border-radius: 100%;
+    min-height: 200px;
+    padding: 5rem 3rem;
+    width: 25%;
+    background-color: yellow;
+    box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
+}
+
 /* workout-plan */
 
 #workout-plan {
@@ -167,7 +236,7 @@ h2 {
     width: 26%;
     border-radius: 70px;
     min-height: 450px;
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
     object-fit: contain;
     background: url('../images/3bmeditation-woman.jpg') no-repeat center center;
 }
@@ -188,6 +257,7 @@ footer {
     text-align: left;
     float: left;
     padding: 2rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -195,13 +265,16 @@ footer {
     text-align: left;
     float: right;
     padding: 2rem;
+    padding-top: 3.5rem;
     padding-bottom: 1rem;
 }
 
 #footer-center {
+    display: inline;
     text-align: center;
     margin: 0 auto;
     padding: 2rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -210,17 +283,22 @@ footer {
 
 .social-media-network {
     text-align: center;
+    margin: 0 auto;
+
 }
 
 .social-media-network li {
     display: inline;
-
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 .social-media-network i {
     margin: 0 auto;
-    padding: 1%;
-    font-size: 180%;
+    padding: 0.5rem;
+    font-size: 200%;
     color: #851285;
 }
 
