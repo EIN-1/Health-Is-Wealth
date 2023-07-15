@@ -144,8 +144,8 @@ h2 {
     background: rgba(150, 196, 94, 0.8);
 }
 
-/* what we offer */
-.aerobics {
+/* offer images */
+#aerobics {
     float: left;
     object-fit: contain;
     height: 400px;
@@ -154,62 +154,52 @@ h2 {
     border-radius: 20%;
 }
 
-.fitness {
+#fitness {
     float: right;
     object-fit: contain;
     height: 400px;
     width: 100%;
-    background: url('../images/small meditation.jpg') no-repeat center center;
+    background: url('../images/working out fitness.webp') no-repeat center center;
     border-radius: 20%;
 }
 
-.yoga {
+#yoga {
     float: right;
     object-fit: contain;
     height: 400px;
     width: 100%;
-    background: url('../images/small meditation.jpg') no-repeat center center;
+    background: url('../images/yoga-flexible.jpg') no-repeat center center;
     border-radius: 20%;
 }
 
-#fit-aerobics{
+    /* offer content and background */
+    
+hr {
+width: 85%;
+margin: 3px 0;
+border-top: 1px solid #851285;
+} 
+
+/* offers heads */
+.fit-heads {
+    width: 29%;
+    margin: 0 auto;
+}
+ /* offers contents */
+.offers-content {
     text-align: left;
     font-size: large;
     float: left;
     font-weight: bolder;
     border-radius: 100%;
-    min-height: 200px;
-    padding: 5rem 3rem;
-    width: 25%;
+    min-height: 205px;
+    padding: 2.5rem 5rem;
+    width: 26%;
     background-color: yellow;
     box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
 }
 
-#fit-fitness{
-    text-align: left;
-    font-size: large;
-    float: left;
-    font-weight: bolder;
-    border-radius: 100%;
-    min-height: 200px;
-    padding: 5rem 3rem;
-    width: 25%;
-    background-color: yellow;
-    box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
-}
 
-#fit-yoga{
-    text-align: left;
-    font-size: large;
-    float:left;
-    font-weight: bolder;
-    border-radius: 100%;
-    min-height: 200px;
-    padding: 5rem 3rem;
-    width: 25%;
-    background-color: yellow;
-    box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
-}
 
 /* workout-plan */
 
