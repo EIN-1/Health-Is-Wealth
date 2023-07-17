@@ -34,330 +34,139 @@
         </nav>
     </header>
 
+
     <section>
-        <!-- contact form --> not done yet still under construction
-        <form>
-            <div>
-                <label for="fname">First name: </label>
-                <input id="fname" type="text" name="first-name" placeholder=" Your first name">
-            </div>
-            <div>
-                <label for="lname">Last name: </label>
-                <input id="lname" type="text" name="last-name" placeholder=" Your last name">
-            </div>
-            <div>
-                <label for="email-field">Email: </label>
-                <input id="email-field" type="email" name="email" placeholder=" Your email">
-            </div>
+        <!-- workout plan table -->
+        <div id="workout-plan">
+        <div id="day-time">
+            <h2>Day-Time Workouts</h2>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Item</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <th>Monday</th>
+                    <th>Aerobics</th>
+                    <th>17:30 - 18:30</th>
+                </tr>
 
-            <!-- select checkbox -->
-            <div>
-                <input id="aerobics-box" type="checkbox" name="aerobics" value="yes">
-                <label for="aerobics-box">Aerobics</label>
+                <tr>
+                    <th>Tuesday</th>
+                    <th>Fitness</th>
+                    <th>17:30 - 18:30</th>
+                </tr>
+                <tr>
+                    <th>Wednesday</th>
+                    <th>Yoga</th>
+                    <th>17:30 - 18:30</th>
+                </tr>
+                <tr>
+                    <th>Thursday</th>
+                    <th>Fitness</th>
+                    <th>17:30 - 18:30</th>
+                </tr>
+            </table>
+        </div>
+        <div id="night-time">
+            <h2>Night-Time Workouts</h2>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Item</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <th>Monday</th>
+                    <th>Yoga</th>
+                    <th>19:00 - 20:00</th>
+                </tr>
+                <tr>
+                    <th>Tuesday</th>
+                    <th>Fitness</th>
+                    <th>19:00 - 20:00</th>
+                </tr>
+                <tr>
+                    <th>Wednesday</th>
+                    <th>Aerobics</th>
+                    <th>19:00 - 20:00</th>
+                </tr>
+                <tr>
+                    <th>Thursday</th>
+                    <th>Fitness</th>
+                    <th>19:00 - 20:00</th>
+                </tr>
+            </table>
+        </div>
+        <div id="weekend-time">
+            <h2>Saturday Workouts</h2>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <th>Yoga</th>
+                    <th>09:30 - 10:30</th>
+                </tr>
+                <tr>
+                    <th>Aerobics</th>
+                    <th>10:45 - 11:45</th>
+                </tr>
+                <tr>
+                    <th>Fitness</th>
+                    <th>12:00 - 13:00</th>
+                </tr>
+            </table>
+        </div>
+        </div>
 
-                <input id="fitness-box" type="checkbox" name="fitness" value="yes" checked>
-                <label for="fitness-box">Fitness</label>
-
-                <input id="yoga-box" type="checkbox" name="yoga" value="yes">
-                <label for="fitness-box">Yoga</label>
-            </div>
-
-
-            <!-- the input will change to a button --> not yet done
-            <button></button>
-            <div>
-                <input type="submit" value="send">
-            </div>
-        </form>
-
-    </section>
-
-     <!-- workout plan table  -->
-     <section>
-
+        <!-- life image -->
         <div id="life-image">
             <h2>Precious life</h2>
         </div>
 
-        <div id="workout-plan">
-            <div id="day-time">
-                <h2>Day-Time Workouts</h2>
-                <table>
-                    <tr>
-                        <th>Day</th>
-                        <th>Item</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>Monday</th>
-                        <th>Aerobics</th>
-                        <th>17:30 - 18:30</th>
-                    </tr>
-
-                    <tr>
-                        <th>Tuesday</th>
-                        <th>Fitness</th>
-                        <th>17:30 - 18:30</th>
-                    </tr>
-                    <tr>
-                        <th>Wednesday</th>
-                        <th>Yoga</th>
-                        <th>17:30 - 18:30</th>
-                    </tr>
-                    <tr>
-                        <th>Thursday</th>
-                        <th>Fitness</th>
-                        <th>17:30 - 18:30</th>
-                    </tr>
-                </table>
-            </div>
-            <div id="night-time">
-                <h2>Night-Time Workouts</h2>
-                <table>
-                    <tr>
-                        <th>Day</th>
-                        <th>Item</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>Monday</th>
-                        <th>Yoga</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Tuesday</th>
-                        <th>Fitness</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Wednesday</th>
-                        <th>Aerobics</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Thursday</th>
-                        <th>Fitness</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                </table>
-            </div>
-            <div id="weekend-time">
-                <h2>Saturday Workouts</h2>
-                <table>
-                    <tr>
-                        <th>Item</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>Yoga</th>
-                        <th>09:30 - 10:30</th>
-                    </tr>
-                    <tr>
-                        <th>Aerobics</th>
-                        <th>10:45 - 11:45</th>
-                    </tr>
-                    <tr>
-                        <th>Fitness</th>
-                        <th>12:00 - 13:00</th>
-                    </tr>
-                </table>
-            </div>
+         <!-- contact form -->
+        <div class="contact-form">
+            <form>
+                <div>
+                    <label for="fname">First name: </label>
+                    <input id="fname" type="text" name="first-name" placeholder=" Your first name">
+                </div>
+                <div>
+                    <label for="lname">Last name: </label>
+                    <input id="lname" type="text" name="last-name" placeholder=" Your last name">
+                </div>
+                <div>
+                    <label for="email-field">Email: </label>
+                    <input id="email-field" type="email" name="email" placeholder=" Your email">
+                </div>
+    
+                <!-- select checkbox -->
+                <div>
+                    <input id="aerobics-box" type="checkbox" name="aerobics" value="yes">
+                    <label for="aerobics-box">Aerobics</label>
+    
+                    <input id="fitness-box" type="checkbox" name="fitness" value="yes" checked>
+                    <label for="fitness-box">Fitness</label>
+    
+                    <input id="yoga-box" type="checkbox" name="yoga" value="yes">
+                    <label for="fitness-box">Yoga</label>
+                </div>
+    
+    
+                <!-- the input will change to a button --> not yet done
+                <button></button>
+                <div>
+                    <input type="submit" value="send">
+                </div>
+            </form>
         </div>
     </section>
-
-
-     <!-- workout plan table  -->
-     <section>
-
-        <div id="life-image">
-            <h2>Precious life</h2>
-        </div>
-
-        <div id="workout-plan">
-            <div id="day-time">
-                <h2>Day-Time Workouts</h2>
-                <table>
-                    <tr>
-                        <th>Day</th>
-                        <th>Item</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>Monday</th>
-                        <th>Aerobics</th>
-                        <th>17:30 - 18:30</th>
-                    </tr>
-
-                    <tr>
-                        <th>Tuesday</th>
-                        <th>Fitness</th>
-                        <th>17:30 - 18:30</th>
-                    </tr>
-                    <tr>
-                        <th>Wednesday</th>
-                        <th>Yoga</th>
-                        <th>17:30 - 18:30</th>
-                    </tr>
-                    <tr>
-                        <th>Thursday</th>
-                        <th>Fitness</th>
-                        <th>17:30 - 18:30</th>
-                    </tr>
-                </table>
-            </div>
-            <div id="night-time">
-                <h2>Night-Time Workouts</h2>
-                <table>
-                    <tr>
-                        <th>Day</th>
-                        <th>Item</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>Monday</th>
-                        <th>Yoga</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Tuesday</th>
-                        <th>Fitness</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Wednesday</th>
-                        <th>Aerobics</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Thursday</th>
-                        <th>Fitness</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                </table>
-            </div>
-            <div id="weekend-time">
-                <h2>Saturday Workouts</h2>
-                <table>
-                    <tr>
-                        <th>Item</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>Yoga</th>
-                        <th>09:30 - 10:30</th>
-                    </tr>
-                    <tr>
-                        <th>Aerobics</th>
-                        <th>10:45 - 11:45</th>
-                    </tr>
-                    <tr>
-                        <th>Fitness</th>
-                        <th>12:00 - 13:00</th>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </section>
-
-
-     <!-- workout plan table  -->
-     <section>
-
-        <div id="life-image">
-            <h2>Precious life</h2>
-        </div>
-
-        <div id="workout-plan">
-            <div id="day-time">
-                <h2>Day-Time Workouts</h2>
-                <table>
-                    <tr>
-                        <th>Day</th>
-                        <th>Item</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>Monday</th>
-                        <th>Aerobics</th>
-                        <th>17:30 - 18:30</th>
-                    </tr>
-
-                    <tr>
-                        <th>Tuesday</th>
-                        <th>Fitness</th>
-                        <th>17:30 - 18:30</th>
-                    </tr>
-                    <tr>
-                        <th>Wednesday</th>
-                        <th>Yoga</th>
-                        <th>17:30 - 18:30</th>
-                    </tr>
-                    <tr>
-                        <th>Thursday</th>
-                        <th>Fitness</th>
-                        <th>17:30 - 18:30</th>
-                    </tr>
-                </table>
-            </div>
-            <div id="night-time">
-                <h2>Night-Time Workouts</h2>
-                <table>
-                    <tr>
-                        <th>Day</th>
-                        <th>Item</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>Monday</th>
-                        <th>Yoga</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Tuesday</th>
-                        <th>Fitness</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Wednesday</th>
-                        <th>Aerobics</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Thursday</th>
-                        <th>Fitness</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                </table>
-            </div>
-            <div id="weekend-time">
-                <h2>Saturday Workouts</h2>
-                <table>
-                    <tr>
-                        <th>Item</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>Yoga</th>
-                        <th>09:30 - 10:30</th>
-                    </tr>
-                    <tr>
-                        <th>Aerobics</th>
-                        <th>10:45 - 11:45</th>
-                    </tr>
-                    <tr>
-                        <th>Fitness</th>
-                        <th>12:00 - 13:00</th>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </section>
-
-
 
     <!-- This is a footer section -->
     <footer>
-        <div id="footer-main">
             <div id="footer-left">
                 <!-- address and location -->
                 <h3> Address</h3>
@@ -397,7 +206,6 @@
                     </li>
                 </ul>
             </div>
-        </div>
     </footer>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/d5664282ad.js" crossorigin="anonymous"></script>
