@@ -216,17 +216,30 @@ border-top: 2px solid #851285;
 /* workout-plan */
 
 #workout-plan {
-    text-align: left;
-    font-size: large;
     float: left;
+    font-size: large;
     font-weight: bolder;
-    border-radius: 60px;
-    min-height: 450px;
-    padding: 2rem 2rem;
-    width: 25%;
-    background-color: yellow;
+    text-align: left;
+    width: 26%;
+    border-radius: 40px;
+    min-height: 50px;
+    padding: 2rem 3rem;
+    background-color: rgba(150, 196, 94, 0.8);
     box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
 }
+
+#contact-form {
+    float: right;
+    font-size: large;
+    font-weight: bolder;
+    text-align: left;
+    width: 26%;
+    border-radius: 40px;
+    min-height: 50px;
+    padding: 2rem 3rem;
+    background-color: rgba(150, 196, 94, 0.8);
+}
+
 
 /* precious life image */
 
