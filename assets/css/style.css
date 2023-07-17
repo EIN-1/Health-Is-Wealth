@@ -146,44 +146,45 @@ h2 {
 
 /* offer images */
 #aerobics {
-    float: left;
+    float: right;
     object-fit: contain;
-    height: 400px;
-    width: 100%;
-    background: url('../images/small meditation.jpg') no-repeat center center;
-    border-radius: 20%;
+    height: 500px;
+    width: 95%;
+    background: url('../images/5aerobics2.1 .jpg') no-repeat right;
 }
 
 #fitness {
     float: right;
     object-fit: contain;
-    height: 400px;
-    width: 100%;
-    background: url('../images/working out fitness.webp') no-repeat center center;
-    border-radius: 20%;
+    height: 500px;
+    width: 95%;
+    background: url('../images/working out fitness.webp') no-repeat right;
 }
 
 #yoga {
     float: right;
     object-fit: contain;
-    height: 400px;
-    width: 100%;
-    background: url('../images/yoga-flexible.jpg') no-repeat center center;
-    border-radius: 20%;
+    height: 500px;
+    width: 95%;
+    background: url('../images/5.1yoga-group-fitness-exe.jpg') no-repeat right;
 }
 
+
+#
     /* offer content and background */
     
 hr {
 width: 85%;
-margin: 3px 0;
-border-top: 1px solid #851285;
+margin: 0;
+border-top: 2px solid #851285;
 } 
 
 /* offers heads */
 .fit-heads {
     width: 29%;
     margin: 0 auto;
+    padding: 1rem;
+
 }
  /* offers contents */
 .offers-content {
@@ -194,7 +195,8 @@ border-top: 1px solid #851285;
     border-radius: 100%;
     min-height: 205px;
     padding: 2.5rem 5rem;
-    width: 26%;
+    padding-bottom: 6rem;
+    width: 25%;
     background-color: yellow;
     box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
 }
