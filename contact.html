@@ -38,9 +38,43 @@
     <section>
         <!-- workout plan table -->
         <div id="workout-plan">
-            <div id="plan1">
-                <h2>Day-Time Workouts</h2>
+            <div class="table-plan">
+
+                <h2 class="table-head">Night-Time Workouts</h2>
+                <hr>
                 <table>
+                    <tr>
+                        <th>Day</th>
+                        <th>Item</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <th>Monday</th>
+                        <th>Yoga</th>
+                        <th>19:00 - 20:00</th>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <th>Fitness</th>
+                        <th>19:00 - 20:00</th>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <th>Aerobics</th>
+                        <th>19:00 - 20:00</th>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <th>Fitness</th>
+                        <th>19:00 - 20:00</th>
+                    </tr>    
+                </table>
+                
+            </div>
+            <div class="table-plan">
+                <h2 class="table-head">Day-Time Workouts</h2>
+                <hr>
+                <table>  
                     <tr>
                         <th>Day</th>
                         <th>Item</th>
@@ -69,101 +103,64 @@
                     </tr>
                 </table>
             </div>
-            <div id="plan2">
-                <h2>Night-Time Workouts</h2>
-                <table>
-                    <tr>
-                        <th>Day</th>
-                        <th>Item</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>Monday</th>
-                        <th>Yoga</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Tuesday</th>
-                        <th>Fitness</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Wednesday</th>
-                        <th>Aerobics</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Thursday</th>
-                        <th>Fitness</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                </table>
+            <br>
+            <div id="contact-form">
+                <form>
+                    <div>
+                        <h1 id="sign-up">sign up</h1>
+                        <label for="fname">First name: </label>
+                        <input id="fname" type="text" name="first-name" placeholder=" Your first name" required>
+                    </div>
+                    <div>
+                        <label for="lname">Last name: </label>
+                        <input id="lname" type="text" name="last-name" placeholder=" Your last name" required>
+                    </div>
+                    <div>
+                        <label for="email-field">Email: </label>
+                        <input id="email-field" type="email" name="email" placeholder=" Your email" required>
+                    </div>
+        
+                    <!-- select checkbox -->
+                    <div>
+                        <input id="aerobics-box" type="checkbox" name="aerobics" value="yes">
+                        <label for="aerobics-box">Aerobics</label>
+        
+                        <input id="fitness-box" type="checkbox" name="fitness" value="yes" checked>
+                        <label for="fitness-box">Fitness</label>
+        
+                        <input id="yoga-box" type="checkbox" name="yoga" value="yes">
+                        <label for="fitness-box">Yoga</label>
+                    </div>
+                    <textarea aria-label="textbox" id="msg" name="text"  placeholder="please text us here" rows="10" col="100"></textarea>
+                   
+                    <br>                    
+                    <!-- the button -->
+                    <button type="submit"><strong>Click to send</strong></button>
+                    <br>
+                    <div id="contacts">
+                        <h3> Contact </h3>
+                        <p> Tel: +49 89 123 456 789</p>
+                        <p> email: healthiswealth..gmail.com</p>
+                    </div>
+                </form>
             </div>
-            <div id="plan3">
-                <h2>Saturday Workouts</h2>
-                <table>
-                    <tr>
-                        <th>Item</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>Yoga</th>
-                        <th>09:30 - 10:30</th>
-                    </tr>
-                    <tr>
-                        <th>Aerobics</th>
-                        <th>10:45 - 11:45</th>
-                    </tr>
-                    <tr>
-                        <th>Fitness</th>
-                        <th>12:00 - 13:00</th>
-                    </tr>
-                </table>
+            <br>
+
+            <!-- address and location -->
+             <div id="location">
+                <h3> Address</h3>
+                <p> Kaufingerstrasse 3, <br> 80331 Munich</p>
+                <iframe src="https://www.google.com/maps/place/Kaufingerstra%C3%9Fe+3,+80331+M%C3%BCnchen/@48.1371867,11.5740166,17z/data=!4m6!3m5!1s0x479e75f52824dcc9:0x9290e0b6e663012d!8m2!3d48.1371868!4d11.5740166!16s%2Fg%2F11c5ps1pw1" title="my map" style="border-radius: 10px;" width="100%" height="200px" allowfullscreen loading="lazy"></iframe>
             </div>
+            
         </div>
 
         <!-- life image -->
         <div id="life-image">
-            <h2>Precious life</h2>
         </div>
 
          <!-- contact form -->
-        <div id="contact-form">
-            <form>
-                <div>
-                    <h1 id="sign-up">sign up</h1>
-                    <label for="fname">First name: </label>
-                    <input id="fname" type="text" name="first-name" placeholder=" Your first name">
-                </div>
-                <div>
-                    <label for="lname">Last name: </label>
-                    <input id="lname" type="text" name="last-name" placeholder=" Your last name">
-                </div>
-                <div>
-                    <label for="email-field">Email: </label>
-                    <input id="email-field" type="email" name="email" placeholder=" Your email">
-                </div>
-    
-                <!-- select checkbox -->
-                <div>
-                    <input id="aerobics-box" type="checkbox" name="aerobics" value="yes">
-                    <label for="aerobics-box">Aerobics</label>
-    
-                    <input id="fitness-box" type="checkbox" name="fitness" value="yes" checked>
-                    <label for="fitness-box">Fitness</label>
-    
-                    <input id="yoga-box" type="checkbox" name="yoga" value="yes">
-                    <label for="fitness-box">Yoga</label>
-                </div>
-    
-    
-                <!-- the input will change to a button --> not yet done
-                <button></button>
-                <div>
-                    <input type="submit" value="send">
-                </div>
-            </form>
-        </div>
+        
     </section>
 
     <!-- This is a footer section -->

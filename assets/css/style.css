@@ -28,7 +28,7 @@ h1,
 h2 {
     font-family: Oswald, sans-serif;
     text-transform: capitalize;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #581058;
 }
 
@@ -178,10 +178,8 @@ h2 {
     width: 95%;
     background: url('../images/5.1yoga-group-fitness-exe.jpg') no-repeat right;
 }
-
-
-#
-    /* offer content and background */
+   
+/* offer content and background */
     
 hr {
 width: 85%;
@@ -194,7 +192,6 @@ border-top: 2px solid #851285;
     width: 29%;
     margin: 0 auto;
     padding: 1rem;
-
 }
  /* offers contents */
 .offers-content {
@@ -206,7 +203,7 @@ border-top: 2px solid #851285;
     min-height: 205px;
     padding: 2.5rem 5rem;
     padding-bottom: 6rem;
-    width: 25%;
+    width: 26%;
     background-color: yellow;
     box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
 }
@@ -215,7 +212,29 @@ border-top: 2px solid #851285;
 
 /* workout-plan */
 
-#workout-plan {
+.table-plan {
+    text-align: left;
+    font-size: large;
+    float: right;
+    font-weight: bolder;
+    border-radius: 100%;
+    min-height: 180px;
+    padding: 2.5rem 5rem;
+    padding-bottom: 5rem;
+    width: 25%;
+    background-color: yellow;
+    box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
+}
+
+.table-head {
+    width: 29%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* contact form */
+
+#contact-form {
     float: left;
     font-size: large;
     font-weight: bolder;
@@ -224,11 +243,12 @@ border-top: 2px solid #851285;
     border-radius: 40px;
     min-height: 50px;
     padding: 2rem 3rem;
-    background-color: rgba(150, 196, 94, 0.8);
-    box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
+    background-color: yellow;
 }
 
-#contact-form {
+
+/* adress and location */
+#location {
     float: right;
     font-size: large;
     font-weight: bolder;
@@ -237,7 +257,8 @@ border-top: 2px solid #851285;
     border-radius: 40px;
     min-height: 50px;
     padding: 2rem 3rem;
-    background-color: rgba(150, 196, 94, 0.8);
+    background-color: yellow;
+
 }
 
 
@@ -248,26 +269,15 @@ border-top: 2px solid #851285;
     font-size: large;
     font-weight: bolder;
     text-align: left;
-    width: 26%;
-    border-radius: 70px;
-    min-height: 450px;
+    width: 100%;
+    border-radius: 10px;
+    min-height: 1080px;
     padding: 2rem 2rem;
     object-fit: contain;
-    background: url('../images/3bmeditation-woman.jpg') no-repeat center center;
+    background: url('../images/5.1-meditation-woman.jpg') no-repeat center center;
 }
 
- /* contact form */
- .contact-form  {
-    text-align: left;
-    font-size: large;
-    float: right;
-    font-weight: bolder;
-    border-radius: 10px;
-    min-height: 200px;
-    padding: 2rem 3rem;
-    width: 20%;
-    background-color: green;
- }
+ 
     
 /* footer */
 
