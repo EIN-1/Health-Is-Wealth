@@ -9,15 +9,15 @@
 body {
     margin: 0;
     font-family: Noto serif, serif;
-    font-weight: 300;
-    color: #851285;
+    font-weight: 350;
+    color: purple;
 }
 
 /* header is fixed  */
-header {    
-    padding: 5%;
-    width: 100%;
+header { 
     top: 0;
+    height: 100px;
+    width: 100%;
     background-color: rgba(118, 119, 90, 0.607);
 }
 
@@ -29,7 +29,9 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #581058;
+    font-weight: 500;
+    font-weight: bolder;
+    color: rgb(94, 3, 94);
 }
 
 #logo {
@@ -81,7 +83,7 @@ h2 {
     height: 600px;
     width: 100%;
     object-fit: contain;
-    background: url('../images/happy-group.jpg') no-repeat center center;
+    background: url('../images/main-image.jpg') no-repeat center center;
 
     /* animations zoom effects on loading */
     animation-name: main-img-zoom;
@@ -155,28 +157,8 @@ h2 {
 }
 
 /* offer images */
-#aerobics {
+#aerobics, #fitness, #yoga  {
     float: right;
-    object-fit: contain;
-    height: 500px;
-    width: 95%;
-    background: url('../images/5aerobics2.1 .jpg') no-repeat right;
-}
-
-#fitness {
-    float: right;
-    object-fit: contain;
-    height: 500px;
-    width: 95%;
-    background: url('../images/working out fitness.webp') no-repeat right;
-}
-
-#yoga {
-    float: right;
-    object-fit: contain;
-    height: 500px;
-    width: 95%;
-    background: url('../images/5.1yoga-group-fitness-exe.jpg') no-repeat right;
 }
    
 /* offer content and background */
@@ -204,7 +186,7 @@ border-top: 2px solid #851285;
     padding: 2.5rem 5rem;
     padding-bottom: 6rem;
     width: 26%;
-    background-color: yellow;
+    background-color: rgba(150, 196, 94, 0.8);
     box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
 }
 
@@ -241,25 +223,23 @@ border-top: 2px solid #851285;
     text-align: left;
     width: 26%;
     border-radius: 40px;
-    min-height: 50px;
+    min-height: 100px;
     padding: 2rem 3rem;
-    background-color: yellow;
+    background-color: rgba(150, 196, 94, 0.8);
+}
+
+.button {
+    background-color: purple;
+    border:none;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-radius: 50px;
+    color: white;
 }
 
 
 /* adress and location */
-#location {
-    float: right;
-    font-size: large;
-    font-weight: bolder;
-    text-align: left;
-    width: 26%;
-    border-radius: 40px;
-    min-height: 50px;
-    padding: 2rem 3rem;
-    background-color: yellow;
-
-}
 
 
 /* precious life image */
@@ -270,11 +250,10 @@ border-top: 2px solid #851285;
     font-weight: bolder;
     text-align: left;
     width: 100%;
-    border-radius: 10px;
     min-height: 1080px;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
     object-fit: contain;
-    background: url('../images/5.1-meditation-woman.jpg') no-repeat center center;
+    background: url('../images/meditation-woman.jpg') no-repeat center center;
 }
 
  

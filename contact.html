@@ -105,23 +105,29 @@
             </div>
             <br>
             <div id="contact-form">
-                <form>
+                <form method="post" action="https://formdump.codeinstitute.net/" target="_blank">
                     <div>
-                        <h1 id="sign-up">sign up</h1>
-                        <label for="fname">First name: </label>
-                        <input id="fname" type="text" name="first-name" placeholder=" Your first name" required>
+                        <h1 id="sign-up">Contact form</h1>
+                        <hr><br> 
+                        <label for="name">Name: </label>
+                        <input id="name" type="text" name="name" placeholder=" Your name please" required>
                     </div>
                     <div>
-                        <label for="lname">Last name: </label>
-                        <input id="lname" type="text" name="last-name" placeholder=" Your last name" required>
+                        <label for="phone">Last name: </label>
+                        <input id="phone" type="text" name="phone" placeholder=" Your phone number">
                     </div>
                     <div>
                         <label for="email-field">Email: </label>
-                        <input id="email-field" type="email" name="email" placeholder=" Your email" required>
+                        <input id="email-field" type="email" name="email" placeholder=" Your email" required rows="15" cols="55">
                     </div>
-        
+                    <br> 
+                    <!-- text field -->
+                    <textarea aria-label="textbox" id="message" name="text" placeholder="please text us here!" rows="15" cols="55" style="border-radius: 10px;" required></textarea>
+                    <br> 
+
                     <!-- select checkbox -->
                     <div>
+                        <h5>please select any field.</h5>
                         <input id="aerobics-box" type="checkbox" name="aerobics" value="yes">
                         <label for="aerobics-box">Aerobics</label>
         
@@ -131,27 +137,31 @@
                         <input id="yoga-box" type="checkbox" name="yoga" value="yes">
                         <label for="fitness-box">Yoga</label>
                     </div>
-                    <textarea aria-label="textbox" id="msg" name="text"  placeholder="please text us here" rows="10" col="100"></textarea>
-                   
-                    <br>                    
-                    <!-- the button -->
-                    <button type="submit"><strong>Click to send</strong></button>
+                    <br> 
+                    <!-- button -->
+                    <button type="submit" class="button"><strong>Click to send</strong></button>
                     <br>
-                    <div id="contacts">
-                        <h3> Contact </h3>
+                    <div id="contacts"><br> 
+                        <h1> Contact </h1>
+                        <hr>
                         <p> Tel: +49 89 123 456 789</p>
-                        <p> email: healthiswealth..gmail.com</p>
+                        <p> email:healthiswealth-.gmail.com</p>
+                        
                     </div>
+                    <div id="location"><br> 
+                        <h1> Address</h1>
+                        <hr>
+                        <p> Kaufingerstrasse 3, <br> 80331 Munich</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.6025949943455!2d11.571827915649015!3d48.13718677922341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f52824dcc9%3A0x9290e0b6e663012d!2sKaufingerstra%C3%9Fe%203%2C%2080331%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1689856063775!5m2!1sen!2sde"
+                         width="420" height="250" title="my map" style="border-radius: 10px;" allowfullscreen=""loading=" lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                    </div>
+
                 </form>
             </div>
             <br>
 
             <!-- address and location -->
-             <div id="location">
-                <h3> Address</h3>
-                <p> Kaufingerstrasse 3, <br> 80331 Munich</p>
-                <iframe src="https://www.google.com/maps/place/Kaufingerstra%C3%9Fe+3,+80331+M%C3%BCnchen/@48.1371867,11.5740166,17z/data=!4m6!3m5!1s0x479e75f52824dcc9:0x9290e0b6e663012d!8m2!3d48.1371868!4d11.5740166!16s%2Fg%2F11c5ps1pw1" title="my map" style="border-radius: 10px;" width="100%" height="200px" allowfullscreen loading="lazy"></iframe>
-            </div>
+             
             
         </div>
 
