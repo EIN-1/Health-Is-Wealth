@@ -35,11 +35,66 @@
     </header>
 
 
-    <section>
-        <!-- workout plan table -->
-        <div id="workout-plan">
-            <div class="table-plan">
+    <section id="contact-section">
+            
+            <!-- contact form -->
+        <div id="contact-form">
+                <form method="get" action="thanks.html">
+                    <div>
+                        <h1 id="sign-up">Contact form</h1>
+                        <hr><br> 
+                        <label for="name">Name: </label>
+                        <input id="name" type="text" name="name" placeholder=" Your name please" required>
+                    </div>
+                    <div>
+                        <label for="phone">Last name: </label>
+                        <input id="phone" type="text" name="phone" placeholder=" Your phone number">
+                    </div>
+                    <div>
+                        <label for="email-field">Email: </label>
+                        <input id="email-field" type="email" name="email" placeholder=" Your email" required>
+                    </div>
+                    <br> 
+                    <!-- text field -->
+                    <textarea aria-label="textbox" id="message" name="text" placeholder="please text us here!" rows="15" cols="55" style="border-radius: 10px;" required></textarea>
+                    <br> 
 
+                    <!-- select checkbox -->
+                    <div>
+                        <h5>please select any field.</h5>
+                        <input id="aerobics-box" type="checkbox" name="aerobics" value="yes">
+                        <label for="aerobics-box">Aerobics</label>
+        
+                        <input id="fitness-box" type="checkbox" name="fitness" value="yes" checked>
+                        <label for="fitness-box">Fitness</label>
+        
+                        <input id="yoga-box" type="checkbox" name="yoga" value="yes">
+                        <label for="fitness-box">Yoga</label>
+                    </div>
+                    <br> 
+                    <!-- button -->
+                    <button type="submit" class="button"><strong>Click to send</strong></button>
+                    <br>
+                    <div id="contacts"><br> 
+                        <h1> Contact </h1>
+                        <hr>
+                        <p> Tel: +49 89 123 456 789</p>
+                        <p> email:healthiswealth-.gmail.com</p>
+                    </div>
+
+                    <!-- address and location -->
+                    <div id="location"><br> 
+                        <h1> Address</h1>
+                        <hr>
+                        <p> Kaufingerstrasse 3, <br> 80331 Munich</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.6025949943455!2d11.571827915649015!3d48.13718677922341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f52824dcc9%3A0x9290e0b6e663012d!2sKaufingerstra%C3%9Fe%203%2C%2080331%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1689856063775!5m2!1sen!2sde"
+                         width="420" height="250" title="my map" style="border-radius: 10px;" allowfullscreen=""loading=" lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                    </div>
+                </form>
+        </div>
+        
+             <!-- workout plan table -->
+        <div id="table-plan">
                 <h2 class="table-head">Night-Time Workouts</h2>
                 <hr>
                 <table>
@@ -69,9 +124,7 @@
                         <th>19:00 - 20:00</th>
                     </tr>    
                 </table>
-                
-            </div>
-            <div class="table-plan">
+                <br>
                 <h2 class="table-head">Day-Time Workouts</h2>
                 <hr>
                 <table>  
@@ -101,76 +154,15 @@
                         <th>Fitness</th>
                         <th>17:30 - 18:30</th>
                     </tr>
-                </table>
-            </div>
-            <br>
-            <div id="contact-form">
-                <form method="post" action="https://formdump.codeinstitute.net/" target="_blank">
-                    <div>
-                        <h1 id="sign-up">Contact form</h1>
-                        <hr><br> 
-                        <label for="name">Name: </label>
-                        <input id="name" type="text" name="name" placeholder=" Your name please" required>
-                    </div>
-                    <div>
-                        <label for="phone">Last name: </label>
-                        <input id="phone" type="text" name="phone" placeholder=" Your phone number">
-                    </div>
-                    <div>
-                        <label for="email-field">Email: </label>
-                        <input id="email-field" type="email" name="email" placeholder=" Your email" required rows="15" cols="55">
-                    </div>
-                    <br> 
-                    <!-- text field -->
-                    <textarea aria-label="textbox" id="message" name="text" placeholder="please text us here!" rows="15" cols="55" style="border-radius: 10px;" required></textarea>
-                    <br> 
-
-                    <!-- select checkbox -->
-                    <div>
-                        <h5>please select any field.</h5>
-                        <input id="aerobics-box" type="checkbox" name="aerobics" value="yes">
-                        <label for="aerobics-box">Aerobics</label>
-        
-                        <input id="fitness-box" type="checkbox" name="fitness" value="yes" checked>
-                        <label for="fitness-box">Fitness</label>
-        
-                        <input id="yoga-box" type="checkbox" name="yoga" value="yes">
-                        <label for="fitness-box">Yoga</label>
-                    </div>
-                    <br> 
-                    <!-- button -->
-                    <button type="submit" class="button"><strong>Click to send</strong></button>
-                    <br>
-                    <div id="contacts"><br> 
-                        <h1> Contact </h1>
-                        <hr>
-                        <p> Tel: +49 89 123 456 789</p>
-                        <p> email:healthiswealth-.gmail.com</p>
-                        
-                    </div>
-                    <div id="location"><br> 
-                        <h1> Address</h1>
-                        <hr>
-                        <p> Kaufingerstrasse 3, <br> 80331 Munich</p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.6025949943455!2d11.571827915649015!3d48.13718677922341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f52824dcc9%3A0x9290e0b6e663012d!2sKaufingerstra%C3%9Fe%203%2C%2080331%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1689856063775!5m2!1sen!2sde"
-                         width="420" height="250" title="my map" style="border-radius: 10px;" allowfullscreen=""loading=" lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-                    </div>
-
-                </form>
-            </div>
-            <br>
-
-            <!-- address and location -->
-             
-            
+                </table> 
         </div>
 
-        <!-- life image -->
-        <div id="life-image">
+             <!-- life image -->
+        <div id="life-image"> 
+            <h1>life is precious</h1><br>
+            <h2>we need to take care of it</h2><br>
+            <h2>Through body, mind and soul trainning</h2>
         </div>
-
-         <!-- contact form -->
-        
     </section>
 
     <!-- This is a footer section -->
