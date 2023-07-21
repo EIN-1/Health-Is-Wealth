@@ -301,11 +301,13 @@ th {
 
 /* thanks page */
 #thanks-page {
+    text-align: center;
     margin: 0 auto;
     font-size: 50px;
     padding: 1.7% 0.5%;
     height: 100%;
     width: 50%;
+    background-color: whitesmoke;
 }
 #smiley {
     margin: 0 auto;
