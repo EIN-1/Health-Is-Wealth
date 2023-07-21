@@ -34,7 +34,7 @@
         </nav>
     </header>
 
-
+    <!-- contact section -->
     <section id="contact-section">
             
             <!-- contact form -->
@@ -56,11 +56,12 @@
                     </div>
                     <br> 
                     <!-- text field -->
-                    <textarea aria-label="textbox" id="message" name="text" placeholder="please text us here!" rows="15" cols="55" style="border-radius: 10px;" required></textarea>
+                    <textarea aria-label="textbox" id="message" name="text" placeholder="please text us here!" rows="15" cols="50" style="border-radius: 10px;" required></textarea>
                     <br> 
 
                     <!-- select checkbox -->
                     <div>
+                        <br>
                         <h5>please select any field.</h5>
                         <input id="aerobics-box" type="checkbox" name="aerobics" value="yes">
                         <label for="aerobics-box">Aerobics</label>
@@ -71,7 +72,7 @@
                         <input id="yoga-box" type="checkbox" name="yoga" value="yes">
                         <label for="fitness-box">Yoga</label>
                     </div>
-                    <br> 
+
                     <!-- button -->
                     <button type="submit" class="button"><strong>Click to send</strong></button>
                     <br>
@@ -81,50 +82,12 @@
                         <p> Tel: +49 89 123 456 789</p>
                         <p> email:healthiswealth-.gmail.com</p>
                     </div>
-
-                    <!-- address and location -->
-                    <div id="location"><br> 
-                        <h1> Address</h1>
-                        <hr>
-                        <p> Kaufingerstrasse 3, <br> 80331 Munich</p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.6025949943455!2d11.571827915649015!3d48.13718677922341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f52824dcc9%3A0x9290e0b6e663012d!2sKaufingerstra%C3%9Fe%203%2C%2080331%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1689856063775!5m2!1sen!2sde"
-                         width="420" height="250" title="my map" style="border-radius: 10px;" allowfullscreen=""loading=" lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-                    </div>
+                    
                 </form>
-        </div>
+            </div>
         
-             <!-- workout plan table -->
-        <div id="table-plan">
-                <h2 class="table-head">Night-Time Workouts</h2>
-                <hr>
-                <table>
-                    <tr>
-                        <th>Day</th>
-                        <th>Item</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <th>Monday</th>
-                        <th>Yoga</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Tuesday</th>
-                        <th>Fitness</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Wednesday</th>
-                        <th>Aerobics</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>
-                    <tr>
-                        <th>Thursday</th>
-                        <th>Fitness</th>
-                        <th>19:00 - 20:00</th>
-                    </tr>    
-                </table>
-                <br>
+             <!-- workout table -->
+            <div id="table-plan">
                 <h2 class="table-head">Day-Time Workouts</h2>
                 <hr>
                 <table>  
@@ -134,38 +97,70 @@
                         <th>Time</th>
                     </tr>
                     <tr>
-                        <th>Monday</th>
-                        <th>Aerobics</th>
-                        <th>17:30 - 18:30</th>
+                        <td>Monday</td>
+                        <td>Aerobics</td>
+                        <td>17:30 - 18:30</td>
                     </tr>
 
                     <tr>
-                        <th>Tuesday</th>
-                        <th>Fitness</th>
-                        <th>17:30 - 18:30</th>
+                        <td>Tuesday</td>
+                        <td>Fitness</td>
+                        <td>17:30 - 18:30</td>
                     </tr>
                     <tr>
-                        <th>Wednesday</th>
-                        <th>Yoga</th>
-                        <th>17:30 - 18:30</th>
+                        <td>Wednesday</td>
+                        <td>Yoga</td>
+                        <td>17:30 - 18:30</td>
                     </tr>
                     <tr>
-                        <th>Thursday</th>
-                        <th>Fitness</th>
-                        <th>17:30 - 18:30</th>
+                        <td>Thursday</td>
+                        <td>Fitness</td>
+                        <td>17:30 - 18:30</td>
                     </tr>
-                </table> 
-        </div>
-
-             <!-- life image -->
-        <div id="life-image"> 
-            <h1>life is precious</h1><br>
-            <h2>we need to take care of it</h2><br>
-            <h2>Through body, mind and soul trainning</h2>
-        </div>
+                </table>
+                <br>
+                <h2 class="table-head">Night-Time Workouts</h2>
+                <hr>
+                <table>
+                    <tr>
+                        <th>Day</th>
+                        <th>Item</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Yoga</td>
+                        <td>19:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Fitness</td>
+                        <td>19:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Aerobics</td>
+                        <td>19:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Fitness</td>
+                        <td>19:00 - 20:00</td>
+                    </tr>    
+                </table>
+                <!-- address and location -->
+                <div id="location"><br> 
+                    <h1> Address</h1>
+                    <hr>
+                    <p> Kaufingerstrasse 3, <br> 80331 Munich</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.6025949943455!2d11.571827915649015!3d48.13718677922341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f52824dcc9%3A0x9290e0b6e663012d!2sKaufingerstra%C3%9Fe%203%2C%2080331%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1689856063775!5m2!1sen!2sde"
+                     width="405" height="260" title="my map" style="border-radius: 10px;" allowfullscreen=""loading=" lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                </div>
+            </div>
+       
     </section>
 
-    <!-- This is a footer section -->
+    <!-- footer section -->
     <footer>
             <div id="footer-left">
                 <!-- address and location -->

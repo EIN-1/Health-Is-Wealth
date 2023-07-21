@@ -82,12 +82,30 @@ h2 {
 #main-image {
     height: 600px;
     width: 100%;
-    width: 100%;
     margin: 0%;
+    margin-left: 4.3%;
+    margin-right: 2%;
     box-sizing: border-box;
     object-fit: contain;
-    background: url('../images/main-image.jpg') no-repeat center center;
+
+     /* animations zoom effects on loading */
+     animation-name: main-img-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: reverse;
 }
+
+
+/* creat zoom lever for main image */
+@keyframes main-img-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
 
 #hey {
     text-align: center;
@@ -119,6 +137,7 @@ h2 {
     padding: 2rem 3rem;
     background-color: whitesmoke;
     margin: 2%;
+    margin-top: 2.3%;
     box-sizing: border-box;
     object-fit: contain;
 }
@@ -134,6 +153,7 @@ h2 {
     padding: 2rem 3rem;
     background-color: whitesmoke;
     margin: 2%;
+    margin-top: auto;
     box-sizing: border-box;
     object-fit: contain;
 }
@@ -146,41 +166,39 @@ h2 {
     width: 26%;
     border-radius: 40px;
     padding: 2rem 3rem;
+    margin-top: auto;
     background: whitesmoke;
     box-sizing: border-box;
     object-fit: contain;
 }
 
-/* offer images */
+    /* offers headings */
+#offers {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0 auto;
+    width: 19%;
+    border-radius: 40px;
+    padding: 1rem 1rem;
+    background: whitesmoke;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+
+    /* offer images */
 #aerobics, #fitness, #yoga  {
     float: right;
     margin: 2%;
     width: 94%;
     box-sizing: border-box;
     object-fit: contain;
-
-     /* animations zoom effects on loading */
-     animation-name: aerobics-zoom;
-     animation-duration: 5s;
-     animation-fill-mode: reverse;
-}
-
-
-/* creat zoom lever for offer image */
-@keyframes aerobics-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.2);
-    }
 }
    
 /* offer content and background */
     
 hr {
-width: 85%;
+width: 100%;
 margin: 0;
 border-top: 2px solid #851285;
 } 
@@ -220,11 +238,11 @@ border-top: 2px solid #851285;
     border-radius: 40px;
     min-height: 100px;
     padding: 2rem 3rem;
-    margin: 2%;
+    margin: 3%;
     box-sizing: border-box;
     object-fit: contain;
-    background-color: rgba(150, 196, 94, 0.8);
-    box-shadow: 0px 0px 12px 18px rgba(118, 119, 90, 0.607);
+    background-color:  rgba(118, 119, 90, 0.607);
+    box-shadow: 0px 0px 12px 18px rgb(92, 64, 92);
 }
 
 .button {
@@ -235,49 +253,51 @@ border-top: 2px solid #851285;
     padding: 0.3rem;
     border-radius: 50px;
     color: white;
+}
 
-}/* workout-plan */
+/* workout-plan */
 #table-plan {
     float: right;
     font-size: large;
     font-weight: bolder;
     text-align: center;
-    width: 28%;
+    width: 30%;
     border-radius: 40px;
-    min-height: 100px;
-    padding: 5rem 5rem;
+    min-height: 150px;
+    padding: 1.5rem 2rem;
     margin: 2%;
     box-sizing: border-box;
     object-fit: contain;
-    background-color: rgba(150, 196, 94, 0.8);
+    background-color: whitesmoke;
     box-shadow: 0px 0px 12px 18px rgba(118, 119, 90, 0.607);
 }
 
-.table-head {
-    width: 50%;
-    margin: 0 auto;
-    padding: 0.5rem;
+th, td {
+ padding: 0.15rem;
+ width: 0.0125%;
+ text-align: center;
 }
 
-/* table */
-
-tr {
-    margin: 0 auto;
+th {
+    padding: 0.075rem;
+    width: 0.0125%;
     text-align: center;
-}
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(150, 196, 94, 0.8);
+   }
 
-/* precious life image */
-
-#life-image {
-    margin : 0 auto;
-    font-size: large;
-    font-weight: bolder;
-    text-align: left;
-    width: 100%;
-    min-height: 1080px;
+#location {
+    box-sizing: border-box;
     object-fit: contain;
-    background: url('../images/meditation-woman.jpg') no-repeat center center;
+    border-radius: 30px;
+    padding: 1.1rem 1.1rem;
+    margin: 1%;
+
+    background-color: rgba(118, 119, 90, 0.607);
+  
 }
+   
 
 /* thanks page */
 #thanks-page {
@@ -289,12 +309,12 @@ tr {
 }
 #smiley {
     margin: 0 auto;
-    font-size: 100px;
+    font-size: 200px;
     padding-left: 40%;
     padding-right: 40%;
 }
 
-#home-section, #offers-section {
+#home-section, #offers-section, #contact-section, #thanks-section {
     background-color: rgba(150, 196, 94, 0.8);
     background-position: center;
     background-size: auto;
@@ -303,8 +323,7 @@ tr {
     height: 100%;
     overflow: hidden;
 }
- 
-    
+   
 /* footer */
 
 footer {
@@ -340,7 +359,6 @@ footer {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
-
 
 /* social medial links */
 
