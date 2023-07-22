@@ -420,6 +420,8 @@ footer {
 
 /* I use media all because i want it to include speech and screen */
 
+/* Still working on queries */
+
 /* media smallest */
 @media all (min-width: 475px ) {
     .container {
