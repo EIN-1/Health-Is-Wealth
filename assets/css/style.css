@@ -10,7 +10,7 @@ body {
     margin: 0;
     font-family: Noto serif, serif;
     font-weight: 350;
-    color: purple;
+    color:#5e035e;
 }
 
 /* header is fixed  */
@@ -18,7 +18,7 @@ header {
     top: 0;
     height: 100px;
     width: 100%;
-    background-color: rgba(118, 119, 90, 0.607);
+    background-color: #c0c2ae;
 }
 
 
@@ -323,7 +323,7 @@ th {
     border-radius: 30px;
     padding: 1.1rem 1.1rem;
     margin: 1%;
-    background-color: rgba(118, 119, 90, 0.607);
+    background-color: #c0c2ae;
 }
    
 /* thanks page */
@@ -353,7 +353,7 @@ footer {
     bottom: 0;
     min-height: 100%;
     width: 100%;
-    background-color: rgba(118, 119, 90, 0.607);
+    background-color: #c0c2ae;
 }
 
 #footer-left {
@@ -401,7 +401,6 @@ footer {
     margin: 0 auto;
     padding: 0.5rem;
     font-size: 200%;
-    color: #851285;
 }
 
 /* container of all my sections */

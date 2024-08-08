@@ -15,23 +15,26 @@
 </head>
 
 <body>
+    <!--header-->
     <header>
-        <a href="index.html">
-                <h1 id="logo">Health is wealth</h1>
-            </a>
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a href="offers.html">Offers</a>
-                    </li>
-                    <li>
-                        <a href="index.html" class="active">Home</a>
-                    </li>
-                </ul>
-            </nav>
+        <!--logo-->
+        <a href="index.html" aria-label="Go to Home page">
+            <h1 id="logo">Health is wealth</h1>
+        </a>
+        <!--Navigation menu-->
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="contact.html" class="navlink" aria-label="Go to Contact page">Contact</a>
+                </li>
+                <li>
+                    <a href="offers.html" class="navlink" aria-label="Go to Offer page">Offers</a>
+                </li>
+                <li>
+                    <a href="index.html" id="active" class="navlink" aria-label="Go to Home page">Home</a>
+                </li>
+            </ul>
+        </nav>
     </header>    
     <!-- contact section  and fit-ethos sectoin-->
     <section id="home-section" class="container">
@@ -82,244 +85,63 @@
         </section>
     </section>
 
-     <!-- offers section -->
-    <section id="offers-section" class="container">
-        <h1 id="offers-head">Fitness offers</h1>
-        <div id="aerobics">
-            <img src="assets/images/aerobics.jpg" 
-            alt=" a group of people doing aerobics in the gym.">
+     <!-- about section -->
+    <section id="about-section" class="container">
+        <h1 id="about-head">About</h1>
+        <div class="about-content">
+            <p>
+                Founded in 2020, Health is wealth is a community fitness group of people who meet up for fitness and 
+                networking we care about our body soul and mind when workingout and improve our health at the sametime.
+                we work out together on different intervals of the week that way 
+                everyone is flexable to join us when free or off duty and work out on 
+                the time that suites them. We have different time slots and activities
+                and we can occurtionaly choose a day to go for a group roadwork.
 
-            <div class="offers-content">
-                <div class="fit-heads">
-                    <h2>Aerobics</h2>
-                    <hr>
-                </div>
-                <p>
-                    The fun part about aerobics, we burn excess fat together with rhythm.
-                    Following the instructor makes it easily and you don't feel the heavy
-                    tiredness because in that moment the club if full of laughters after a
-                    few weeks you release that you easily lost a few kilos and that is fascinating.
-                </p>
-            </div>
-        </div>
-
-        <div id="fitness">
-            <img src="assets/images/fitness.webp" 
-            alt=" a group of people lifting medium weights in agym.">
-
-            <div class="offers-content">
-                <div class="fit-heads">
-                    <h2>Fitness</h2>
-                    <hr>
-                </div>
-                <p>
-                    Your losing weight and growing stronger physic and mentally.Always
-                    remember winters never quite the more you workout the more your will
-                    achieve, we all start from baby steps and we keep on going and working
-                    towards your fittness goals.
-                </p>
-            </div>
-        </div>
-
-        <div id="yoga">
-            <img src="assets/images/yoga.jpg" 
-            alt=" women bending while putting their fore heads on the their right knees and hands straight in the middle of the upper back.">
-
-            <div class="offers-content">
-                <div class="fit-heads">
-                    <h2>Yoga</h2>
-                    <hr>
-                </div>
-                <p>
-                    did you know that you can always meditate with us in Yoga, join our
-                    concetration trainning team to find your inner self, not only will you
-                    learn the breathing technics to help on your concetration skills but you will
-                    become fit and flexeable no matter your age.
-                </p>
-            </div>
+                We offer different workout activities so that everone can find what suits them.
+                Our workout groups are for all ages so don't limit your self, you are always welcome to join us.
+            </p>
         </div>
     </section>
-
-     <!-- contact section -->
-    <section id="contact-section" class="container">
-            
-        <!-- contact form -->
-    <div id="contact-form">
-            <form method="get" action="thanks.html">
-                <div>
-                    <h1 id="sign-up">Contact form</h1>
-                    <hr><br> 
-                    <label for="name">Name : </label>
-                    <input id="name" type="text" name="name" placeholder=" Your name please" required class="input-text">
-                </div>
-                <div>
-                    <label for="phone">Phone : </label>
-                    <input id="phone" type="number" name="phone" placeholder=" Your phone number" class="input-text">
-                </div>
-                <div>
-                    <label for="email-field">Email : </label>
-                    <input id="email-field" type="email" name="email" placeholder=" Your email" required class="input-text">
-                </div>
-                <br> 
-                <!-- text field -->
-                <textarea aria-label="textbox" id="message-box" name="text" placeholder="            please text us here!" rows="15" cols="41" style="border-radius: 10px;"></textarea>
-                <br> 
-
-                <!-- select checkbox -->
-                <div>
-                    <br>
-                    <h5>please select any field.</h5>
-                    <input id="aerobics-box" type="checkbox" name="aerobics" value="yes" class="input-checkbox">
-                    <label for="aerobics-box">Aerobics</label>
-    
-                    <input id="fitness-box" type="checkbox" name="fitness" value="yes" checked class="input-checkbox">
-                    <label for="fitness-box">Fitness</label>
-    
-                    <input id="yoga-box" type="checkbox" name="yoga" value="yes" class="input-checkbox">
-                    <label for="fitness-box">Yoga</label>
-                </div>
-
-                <!-- button -->
-                <button type="submit" class="button"><strong>Click to send</strong></button>
-                <br>
-                <div id="contacts"><br> 
-                    <h1> Contact </h1>
-                    <hr>
-                    <p> Tel: +49 89 123 456 789</p>
-                    <p> email:healthiswealth-.gmail.com</p>
-                </div>
-            </form>
-        </div>
-    
-         <!-- workout table -->
-        <div id="table-plan">
-            <h2 class="table-head">Day-Time Workouts</h2>
-            <hr>
-            <table>  
-                <tr>
-                    <th>Day</th>
-                    <th>Item</th>
-                    <th>Time</th>
-                </tr>
-                <tr>
-                    <td>Monday</td>
-                    <td>Aerobics</td>
-                    <td>17:30 - 18:30</td>
-                </tr>
-
-                <tr>
-                    <td>Tuesday</td>
-                    <td>Fitness</td>
-                    <td>17:30 - 18:30</td>
-                </tr>
-                <tr>
-                    <td>Wednesday</td>
-                    <td>Yoga</td>
-                    <td>17:30 - 18:30</td>
-                </tr>
-                <tr>
-                    <td>Thursday</td>
-                    <td>Fitness</td>
-                    <td>17:30 - 18:30</td>
-                </tr>
-            </table>
-            <br>
-            <h2 class="table-head">Night-Time Workouts</h2>
-            <hr>
-            <table>
-                <tr>
-                    <th>Day</th>
-                    <th>Item</th>
-                    <th>Time</th>
-                </tr>
-                <tr>
-                    <td>Monday</td>
-                    <td>Yoga</td>
-                    <td>19:00 - 20:00</td>
-                </tr>
-                <tr>
-                    <td>Tuesday</td>
-                    <td>Fitness</td>
-                    <td>19:00 - 20:00</td>
-                </tr>
-                <tr>
-                    <td>Wednesday</td>
-                    <td>Aerobics</td>
-                    <td>19:00 - 20:00</td>
-                </tr>
-                <tr>
-                    <td>Thursday</td>
-                    <td>Fitness</td>
-                    <td>19:00 - 20:00</td>
-                </tr>    
-            </table>
-            <br>
-            <!-- address and location -->
-            <div id="location"><br> 
-                <h1> Find us at</h1>
-                <hr>
-                <h2>Health is wealth</h2>
-                <p> Kaufingerstrasse 3, <br> 80331 Munich</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.6025949943455!2d11.571827915649015!3d48.13718677922341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f52824dcc9%3A0x9290e0b6e663012d!2sKaufingerstra%C3%9Fe%203%2C%2080331%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1689856063775!5m2!1sen!2sde"
-                 width="405" height="260" title="my map" style="border-radius: 10px;" allowfullscreen=""loading=" lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-            </div>
-        </div>
-   
-    </section>
-
-    <!-- thanks section -->
-    <section id="thanks-section" class="container">
-    <div id="thanks-page">
-        <h1>Thank you for contacting us!</h1>
-        <br>
-        <div id="smiley">
-        <i class="fa-solid fa-face-smile fa-bounce"></i>
-        </div>
-        <h3>we will get back to you shortly.</h3>
-    </div> 
-    </section>
-
     <!-- footer section -->
     <footer>
         <div id="footer-left">
-    <!-- address and location -->
+            <!-- address and location -->
             <h3> Address</h3>
             <p> Kaufingerstrasse 3, <br> 80331 Munich</p>
-            </div>
-            <div id="footer-right">
+        </div>
+        <div id="footer-right">
                 <!-- copywrite -->
                 <h3><i class="fa-regular fa-copyright"></i> 2023 Health is wealth</h3>
-            </div>
-            <div id="footer-center">
+        </div>
+        <div id="footer-center">
+             <!-- social media likes will open on the next page -->
+             <h3>Find us on</h3>
+             <br>
+             <ul class="social-media-network">
+                 <li>
+                     <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                         aria-label="Visit our Facebook page (Open in a new tab)"><i
+                             class="fa-brands fa-square-facebook"></i></a>
+                 </li>
+                 <li>
+                     <a href="https://twitter.com/" target="_blank" rel="noopener"
+                         aria-label="Visit our Twitter page (Open in a new tab)"><i
+                             class="fa-brands fa-square-twitter"></i></a>
 
-                <!-- social media likes will open on the next page -->
-                <h3>Find us on</h3>
-                <br>
-                <ul class="social-media-network">
-                    <li>
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                            aria-label="Visit our Facebook page (Open in a new tab)"><i
-                                class="fa-brands fa-square-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/" target="_blank" rel="noopener"
-                            aria-label="Visit our Twitter page (Open in a new tab)"><i
-                                class="fa-brands fa-square-twitter"></i></a>
+                 </li>
+                 <li>
+                     <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                         aria-label="Visit our Instagram page (Open in a new tab)"><i
+                             class="fa-brands fa-square-instagram"></i></a>
 
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                            aria-label="Visit our Instagram page (Open in a new tab)"><i
-                                class="fa-brands fa-square-instagram"></i></a>
-
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                            arial-label="Visit our Youtube page (Open in a new tab)"><i
-                                class="fa-brands fa-square-youtube"></i></a>
-                    </li>
-                </ul>
-            </div>
+                 </li>
+                 <li>
+                     <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                         arial-label="Visit our Youtube page (Open in a new tab)"><i
+                             class="fa-brands fa-square-youtube"></i></a>
+                 </li>
+             </ul>  
+        </div>
     </footer>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/d5664282ad.js" crossorigin="anonymous"></script>
