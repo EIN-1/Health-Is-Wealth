@@ -11,6 +11,7 @@ body {
     font-family: Noto serif, serif;
     font-weight: 350;
     color:#5e035e;
+    
 }
 
 /* header is fixed  */
@@ -100,11 +101,37 @@ h2 {
     }
 }
 
+.reasons {
+    display:flex;
+    flex-wrap: wrap;
+}
 
-#question {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
+.reasons > * {
+    flex:11 18em;
+    
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+    color: rgb(101, 60, 9);
+}
+
+.col {
+    font-size: large;
+    font-weight: bolder;
+    text-align: left;
+    width: 25%;
+    border-radius: 40px;
+    min-height: 50px;
+    padding: 2rem 3rem;
+    background-color: whitesmoke;
+    margin: 2%;
+    margin-top: 2.3%;
+    box-sizing: border-box;
+    object-fit: contain;
+    position: relative; 
 }
 
 #cover-text {
@@ -120,8 +147,8 @@ h2 {
 
 /* fit ethos */
 
-#fit-ethos {
-    width: 50%;
+/* #fit-ethos {
+    width: 100%;
     min-height: 100x;
     padding: 1rem 1rem;
     margin: 0 auto;
@@ -129,8 +156,9 @@ h2 {
     margin-top: 0.5%;
     box-sizing: border-box;
     object-fit: contain;
-}
+} */
 
+/*
 #left-abt {
     float: left;
     font-size: large;
@@ -174,28 +202,30 @@ h2 {
     border-radius: 40px;
     padding: 2rem 3rem;
     margin-top: auto;
-    background: whitesmoke;
+    background-color: whitesmoke;
     box-sizing: border-box;
     object-fit: contain;
     position: relative;
 }
-#about-section {
+    */
+
+#about-content {
     font-size: large;
     font-weight: bolder;
     text-align: left;
     margin: 0 auto;
-    width: 26%;
+    width: 75%;
     border-radius: 40px;
     padding: 2rem 3rem;
     margin-top: auto;
-    background: whitesmoke;
+    background-color: whitesmoke;
     box-sizing: border-box;
     object-fit: contain;
     position: relative;
 }
 
     /* offers headings */
-#offers-head {
+#offers-head, #quetions-head {
     font-size: 50px;
     font-weight: bolder;
     text-align: center;
@@ -426,7 +456,7 @@ footer {
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    background-color: rgba(150, 196, 94, 0.8);
+    background-color:rgba(150, 196, 94, 0.8);;
     overflow: hidden;
 }
 
