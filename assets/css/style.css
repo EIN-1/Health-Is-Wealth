@@ -22,6 +22,19 @@ header {
     background-color: #c0c2ae;
 }
 
+/* container of all my sections */
+.container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color:rgba(150, 196, 94, 0.8);;
+    overflow: hidden;
+}
+
 
 
 /* headings and logo */
@@ -30,7 +43,6 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    font-weight: 500;
     font-weight: bolder;
     color: rgb(94, 3, 94);
 }
@@ -100,35 +112,28 @@ h2 {
         transform: scale(1.1);
     }
 }
-
-.reasons {
-    display:flex;
-    flex-wrap: wrap;
+.row{
+    text-align: center;
+    width: 100%;
+    border-radius: 40px;
+    padding: 1rem;
+    margin: 1%;
+    margin-top: 1.3%;
+    min-height: 100%;
+    box-sizing: border-box;
+    object-fit: contain;
+    position: relative;  
 }
-
-.reasons > * {
-    flex:11 18em;
-    
-}
-
-.box {
-    height: 50px;
-    width: 50px;
-    border: 1px solid red;
-    color: rgb(101, 60, 9);
-}
-
 .col {
     font-size: large;
-    font-weight: bolder;
+    font-weight: bold;
     text-align: left;
-    width: 25%;
+    width: 100%;
     border-radius: 40px;
-    min-height: 50px;
-    padding: 2rem 3rem;
-    background-color: whitesmoke;
+    min-height: 2px;
+    padding: 1.5rem 1.25rem;
     margin: 2%;
-    margin-top: 2.3%;
+    margin-top: 1.3%;
     box-sizing: border-box;
     object-fit: contain;
     position: relative; 
@@ -145,99 +150,37 @@ h2 {
     text-transform: uppercase;
 }
 
-/* fit ethos */
-
-/* #fit-ethos {
-    width: 100%;
-    min-height: 100x;
-    padding: 1rem 1rem;
-    margin: 0 auto;
-    padding-bottom: 6%;
-    margin-top: 0.5%;
-    box-sizing: border-box;
-    object-fit: contain;
-} */
-
-/*
-#left-abt {
-    float: left;
-    font-size: large;
-    font-weight: bolder;
-    text-align: left;
-    width: 26%;
-    border-radius: 40px;
-    min-height: 50px;
-    padding: 2rem 3rem;
-    background-color: whitesmoke;
-    margin: 2%;
-    margin-top: 2.3%;
-    box-sizing: border-box;
-    object-fit: contain;
-    position: relative;
+/* homepage reasons, about designs */
+.reasons, #about-content,#offers-head, #quetions-head {
+    display:flex;
+    flex-wrap: wrap;
+    
 }
 
-#right-abt {
-    float: right;
-    font-size: large;
-    font-weight: bolder;
-    text-align: left;
-    width: 26%;
-    border-radius: 40px;
-    min-height: 50px;
-    padding: 2rem 3rem;
+.reasons > * {
     background-color: whitesmoke;
-    margin: 2%;
-    margin-top: auto;
-    box-sizing: border-box;
-    object-fit: contain;
-    position: relative;
+    flex:11 18em;
 }
-
-#center-abt {
-    font-size: large;
-    font-weight: bolder;
-    text-align: left;
-    margin: 0 auto;
-    width: 26%;
-    border-radius: 40px;
-    padding: 2rem 3rem;
-    margin-top: auto;
-    background-color: whitesmoke;
-    box-sizing: border-box;
-    object-fit: contain;
-    position: relative;
-}
-    */
 
 #about-content {
-    font-size: large;
-    font-weight: bolder;
-    text-align: left;
-    margin: 0 auto;
-    width: 75%;
-    border-radius: 40px;
-    padding: 2rem 3rem;
-    margin-top: auto;
     background-color: whitesmoke;
-    box-sizing: border-box;
-    object-fit: contain;
-    position: relative;
+} 
+
+#about-content, #offers-head, #quetions-head {
+    margin: 0 auto;
+    width: 95%;
 }
+
+
 
     /* offers headings */
 #offers-head, #quetions-head {
-    font-size: 50px;
-    font-weight: bolder;
-    text-align: center;
-    margin: 0 auto;
-    width: 18%;
-    min-height: 35px auto;
-    border-radius: 40px;
-    padding: 1rem 1rem;
-    margin-top: 1%;
-    background: whitesmoke;
-    box-sizing: border-box;
-    object-fit: contain;
+    font-size: 30px;
+    justify-content: center;
+    padding: 0rem 0rem 0rem;
+    margin-top: 0.2%;
+    
+    
 }
 
     /* offer images */
@@ -390,75 +333,34 @@ th {
 
 
 /* footer */
-
-footer {
+#footer {
     clear: both;
     position: relative;
     bottom: 0;
     min-height: 100%;
+    margin: 0 auto;
     width: 100%;
+    padding: 0;
+    display:flex;
+    flex-wrap: wrap;
     background-color: #c0c2ae;
+    
 }
 
-#footer-left {
-    text-align: left;
-    float: left;
-    padding: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-}
-
-#footer-right {
-    text-align: left;
-    float: right;
-    padding: 2rem;
-    padding-top: 3.5rem;
-    padding-bottom: 1rem;
-}
-
-#footer-center {
-    display: inline;
-    text-align: center;
-    margin: 0 auto;
-    padding: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-}
-
-/* social medial links */
-
-.social-media-network {
-    text-align: center;
-    margin: 0 auto;
-
-}
-
-.social-media-network li {
-    display: inline;
-    text-align: center;
-    margin: 0 auto;
-    padding: 1rem;
-    padding-bottom: 1rem;
-}
-
-.social-media-network i {
-    margin: 0 auto;
-    padding: 0.5rem;
-    font-size: 200%;
-}
-
-/* container of all my sections */
-.container {
+#footer > * {
+    flex:11 18em;
     width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-color:rgba(150, 196, 94, 0.8);;
-    overflow: hidden;
+    text-align: center;
 }
+
+#footer a {
+   display:contents;
+    font-size: 35px;
+    margin: 0 auto;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
 
 
 /* I use media all because i want it to include speech and screen */
