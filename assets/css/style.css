@@ -15,12 +15,17 @@ body {
 }
 
 /* header is fixed  */
-header { 
+#header { 
+    clear: both;
+    position:relative;
     top: 0;
-    height: 100px;
+    height: 6em;
     width: 100%;
-    background-color: #c0c2ae;
+    background-color: #c0c2ae; 
 }
+
+
+
 
 /* container of all my sections */
 .container {
@@ -49,32 +54,24 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
-    margin-left: 30px;
+    font-size: 190%;
+    margin-left: 1.4em;
+    margin-bottom: 1%;
 }
 
 /* navigation links */
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
-#menu,
-#logo {
-    line-height: 85px;
-}
-
-#menu li {
-    float: right;
+#navbar > * {
     list-style-type: none;
-    margin-right: 30px;
+    background-color: #c0c2ae;
 }
 
-#menu a {
-    text-decoration: none;
-    color: inherit;
+#navbar a {
+    float: right;
+    margin-right: 1.3em;
+    text-decoration: none;  
 }
+
 
 #menu a:hover {
     border-bottom: 3px solid #851285;
@@ -115,10 +112,6 @@ h2 {
 .row{
     text-align: center;
     width: 100%;
-    border-radius: 40px;
-    padding: 1rem;
-    margin: 1%;
-    margin-top: 1.3%;
     min-height: 100%;
     box-sizing: border-box;
     object-fit: contain;
@@ -129,11 +122,7 @@ h2 {
     font-weight: bold;
     text-align: left;
     width: 100%;
-    border-radius: 40px;
-    min-height: 2px;
-    padding: 1.5rem 1.25rem;
-    margin: 2%;
-    margin-top: 1.3%;
+    padding: 1.2rem 1.2rem;
     box-sizing: border-box;
     object-fit: contain;
     position: relative; 
@@ -158,6 +147,11 @@ h2 {
 }
 
 .reasons > * {
+    border-radius: 40px;
+    min-height: 2px;
+    padding: 1.5rem 1.25rem;
+    margin: 2%;
+    margin-top: 1.3%;
     background-color: whitesmoke;
     flex:11 18em;
 }
@@ -168,12 +162,14 @@ h2 {
 
 #about-content, #offers-head, #quetions-head {
     margin: 0 auto;
-    width: 95%;
+    width: 98%;
+    border-radius: 40px;
+    padding: 1rem;
+    margin: 1%;
+    margin-top: 1.3%;
 }
 
-
-
-    /* offers headings */
+/* offers headings */
 #offers-head, #quetions-head {
     font-size: 30px;
     justify-content: center;
@@ -183,7 +179,7 @@ h2 {
     
 }
 
-    /* offer images */
+/* offer images */
 #aerobics, #fitness, #yoga  {
     float: right;
     margin: 2%;
@@ -206,7 +202,7 @@ border-top: 2px solid #851285;
     margin: 0 auto;
     padding: 1rem;
 }
- /* offers contents */
+/* offers contents */
 .offers-content {
     text-align: left;
     font-size: large;
@@ -337,7 +333,7 @@ th {
     clear: both;
     position: relative;
     bottom: 0;
-    min-height: 100%;
+    min-height: 0%;
     margin: 0 auto;
     width: 100%;
     padding: 0;
@@ -355,10 +351,10 @@ th {
 
 #footer a {
    display:contents;
-    font-size: 35px;
+    font-size: xx-large;
     margin: 0 auto;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 
