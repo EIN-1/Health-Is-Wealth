@@ -52,6 +52,12 @@ h2 {
     color: rgb(94, 3, 94);
 }
 
+hr {
+    width: 100%;
+    margin: 0;
+    border-top: 2px solid #851285;
+    } 
+
 #logo {
     float: left;
     font-size: 190%;
@@ -179,22 +185,28 @@ h2 {
     
 }
 
+
 /* offer images */
-#aerobics, #fitness, #yoga  {
+
+
+#aerobics, #yoga {
     float: right;
-    margin: 2%;
-    width: 94%;
+    margin-right: 12%;
+    width: 50%;
     box-sizing: border-box;
     object-fit: contain;
 }
-   
+
+#fitness {
+    float: left;
+    margin-left: 0.5%;
+    width: 50%;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+
+
 /* offer content and background */
-    
-hr {
-width: 100%;
-margin: 0;
-border-top: 2px solid #851285;
-} 
 
 /* offers heads */
 .fit-heads {
@@ -203,6 +215,7 @@ border-top: 2px solid #851285;
     padding: 1rem;
 }
 /* offers contents */
+
 .offers-content {
     text-align: left;
     font-size: large;
@@ -213,12 +226,32 @@ border-top: 2px solid #851285;
     padding: 2.5rem 5rem;
     padding-bottom: 6rem;
     width: 28%;
-    margin: 3%;
+    margin: 2%;
+    margin-left: 3%;
     box-sizing: border-box;
     object-fit: contain;
     background-color: whitesmoke;
     box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
 }
+
+.offers-content-fitness {
+    text-align: left;
+    font-size: large;
+    float: right;
+    font-weight: bolder;
+    border-radius: 100%;
+    min-height: 150px;
+    padding: 2.5rem 5rem;
+    padding-bottom: 6rem;
+    width: 28%;
+    margin: 2%;
+    margin-right: 3%;
+    box-sizing: border-box;
+    object-fit: contain;
+    background-color: whitesmoke;
+    box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
+}
+
 
 /* contact form */
 
