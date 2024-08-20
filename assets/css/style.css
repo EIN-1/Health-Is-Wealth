@@ -24,9 +24,6 @@ body {
     background-color: #c0c2ae; 
 }
 
-
-
-
 /* container of all my sections */
 .container {
     width: 100%;
@@ -41,7 +38,6 @@ body {
 }
 
 
-
 /* headings and logo */
 h1,
 h2 {
@@ -53,9 +49,9 @@ h2 {
 }
 
 hr {
-    width: 100%;
-    margin: 0;
-    border-top: 2px solid #851285;
+    width:auto;
+    margin: 0 auto;
+    border-top: 5px solid #851285;
     } 
 
 #logo {
@@ -104,8 +100,13 @@ hr {
      animation-fill-mode: reverse;
 }
 
+/* for all images*/
+.img {
+    width: 100%;
+    border-radius: 3%; 
+}
 
-    /* creat zoom lever for main image */
+ /* create zoom lever for main image */
 @keyframes main-img-zoom {
     from {
         transform: scale(1);
@@ -146,7 +147,7 @@ hr {
 }
 
 /* homepage reasons, about designs */
-.reasons, #about-content,#offers-head, #quetions-head {
+.reasons, #about-content,#offers-head, #quetions-head,#offers-main {
     display:flex;
     flex-wrap: wrap;
     
@@ -175,86 +176,50 @@ hr {
     margin-top: 1.3%;
 }
 
-/* offers headings */
+/* offers and quetions headings */
 #offers-head, #quetions-head {
     font-size: 30px;
     justify-content: center;
     padding: 0rem 0rem 0rem;
-    margin-top: 0.2%;
-    
-    
+    margin-top: 0.2%;  
 }
-
-
-/* offer images */
-
-
-#aerobics, #yoga {
-    float: right;
-    margin-right: 12%;
-    width: 50%;
-    box-sizing: border-box;
-    object-fit: contain;
-}
-
-#fitness {
-    float: left;
-    margin-left: 0.5%;
-    width: 50%;
-    box-sizing: border-box;
-    object-fit: contain;
-}
-
-
-/* offer content and background */
 
 /* offers heads */
 .fit-heads {
-    width: 29%;
+    position:relative;
+    text-align: center;
+    width: 30%;
     margin: 0 auto;
+}
+
+/* offers section designs*/
+#offers-main{
+    position:relative;
+    min-height: 2px;
+    
+}
+#offers-main > * {
+    position:relative;
+    height: 100%;
+    margin: 2%;
+    margin-top: 1.3%;
     padding: 1rem;
+    flex:11 22em; 
 }
-/* offers contents */
 
-.offers-content {
-    text-align: left;
-    font-size: large;
+#offers-content {
     float: left;
-    font-weight: bolder;
-    border-radius: 100%;
-    min-height: 150px;
-    padding: 2.5rem 5rem;
-    padding-bottom: 6rem;
-    width: 28%;
-    margin: 2%;
-    margin-left: 3%;
-    box-sizing: border-box;
-    object-fit: contain;
+    height: 100%;
+    border-radius: 9px;
     background-color: whitesmoke;
     box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
+    flex: 11 25%
 }
 
-.offers-content-fitness {
-    text-align: left;
-    font-size: large;
-    float: right;
-    font-weight: bolder;
-    border-radius: 100%;
-    min-height: 150px;
-    padding: 2.5rem 5rem;
-    padding-bottom: 6rem;
-    width: 28%;
-    margin: 2%;
-    margin-right: 3%;
-    box-sizing: border-box;
-    object-fit: contain;
-    background-color: whitesmoke;
-    box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
-}
+
 
 
 /* contact form */
-
 #contact-form {
     float: left;
     font-size: large;
@@ -364,7 +329,7 @@ th {
 /* footer */
 #footer {
     clear: both;
-    position: relative;
+    
     bottom: 0;
     min-height: 0%;
     margin: 0 auto;
