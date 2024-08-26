@@ -86,10 +86,10 @@ hr {
 /* main image */
 
 #main-image {
-    height: 600px;
+    height: 100%;
     width: 100%;
     margin: 0% auto;
-    padding-left: 7.5%;
+    padding-left: 9.5%;
     box-sizing: border-box;
     object-fit: contain;
     overflow: hidden;
@@ -147,10 +147,9 @@ hr {
 }
 
 /* homepage reasons, about designs */
-.reasons, #about-content,#offers-head, #quetions-head,#offers-main {
+.reasons, #about-content,#offers-head, #quetions-head,#offers-main, #contact-main {
     display:flex;
     flex-wrap: wrap;
-    
 }
 
 .reasons > * {
@@ -207,129 +206,136 @@ hr {
     flex:11 22em; 
 }
 
-#offers-content {
-    float: left;
+#offers-content, #contact-form, #table-plan {
     height: 100%;
     border-radius: 9px;
     background-color: whitesmoke;
-    box-shadow: 12px 12px 18px 0px rgba(118, 119, 90, 0.607);
-    flex: 11 25%
+    box-shadow: 0px 0px 12px 18px rgba(118, 119, 90, 0.607);
+    flex: 11 25em;
 }
 
+/* Contact and table section*/
+
+#contact-main {
+    position:relative;
+    min-height: 2px;
+    width: 100%;
+}
 
 
 
 /* contact form */
-#contact-form {
-    float: left;
-    font-size: large;
+
+#contact-form , #table-plan {
+    position: relative;
     font-weight: bolder;
+    border-radius: 20px;
+    height: 100%;
+    width: 30%;
+    padding: 1.5rem 1rem;
+    margin: 2%;
+    color: purple; 
+}
+
+#table-plan  {
+    float: left;
+    text-align: center;
+    width: 30%;
+    flex:11 18em;
+}
+
+#contact-form  {
+    float: right;
     text-align: left;
     width: 28%;
-    border-radius: 40px;
-    height: 750px;
-    padding: 2rem 3rem;
-    margin: 12%;
-    box-sizing: border-box;
-    object-fit: contain;
-    color: purple;
-    background-color: whitesmoke;
-    position: relative;
+    flex:11 17em;  
+}
+
+
+#contact-main  > *, #table-plan  > *  {
+    flex:11 20em;
 
 }
 
-.input-text {
-    position:absolute;
-    font-size: medium;
-    width: 65%;
-    height: 2.5%;
+
+
+
+
+
+.input-text, #message-box {
+    position:relative;
+    font-size:large;
+    text-align: left;
+    width: 100%;
+    height: 8%;
+    border-radius: 3px;
     color: black;
     background-color:  rgba(150, 196, 94, 0.8);
 }
 
 #message-box {
-    font-size: large;
-    text-align: left;
-    color: black;
-    background-color:  rgba(150, 196, 94, 0.8);
+    height: 180px;
+    width: 100%; 
 }
 
 .button {
     background-color: purple;
     border:none;
+    width: 30%;
+    height: 6%;
     text-align: center;
     font-size: 1rem;
     padding: 0.3rem;
     border-radius: 50px;
     color: white;
+    position: relative;
 }
-
 /* workout-plan */
-#table-plan {
-    position: relative;
-    float: right;
-    font-size: large;
-    font-weight: bolder;
-    text-align: center;
-    width: 30%;
-    border-radius: 40px;
-    height: 1000px;
-    padding: 1.5rem 2rem;
-    margin: 8%;
-    position: relative;
-    box-sizing: border-box;
-    object-fit: contain;
-    background-color: whitesmoke;
-    box-shadow: 0px 0px 12px 18px rgba(118, 119, 90, 0.607);
-}
+
+
 
 th, td {
  padding: 0.15rem;
  width: 0.0125%;
- text-align: center;
+ font-size: 100%;
+
 }
 
 th {
     padding: 0.075rem;
-    width: 0.0125%;
-    text-align: center;
     font-weight: bold;
-    font-size: 20px;
     background-color: rgba(150, 196, 94, 0.8);
    }
 
 #location {
-    box-sizing: border-box;
-    object-fit: contain;
-    border-radius: 30px;
-    padding: 1.1rem 1.1rem;
-    margin: 1%;
+    position: relative;
+    border-radius: 10px;
+    height: 50%;
+    width: 100%;
+    padding: 1rem 0.120rem;
     background-color: #c0c2ae;
 }
-   
+
 /* thanks page */
 #thanks-page {
     text-align: center;
-    margin: 0 auto;
-    font-size: 50px;
-    padding: 1.7% 0.5%;
+    background-color: white;
     height: 100%;
-    width: 50%;
-    background-color: whitesmoke;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 250%;
+    padding: 1.7% 0.5%; 
 }
 
 #smiley {
     margin: 0 auto;
-    font-size: 200px;
-    padding-left: 40%;
-    padding-right: 40%;
+    font-size: 400%;
+    
 }
-
 
 /* footer */
 #footer {
     clear: both;
-    
     bottom: 0;
     min-height: 0%;
     margin: 0 auto;
