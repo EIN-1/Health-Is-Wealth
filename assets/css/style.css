@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    font-family: Noto serif, serif;
+    font-family: 'Noto serif', serif;
     font-weight: 350;
     color:#5e035e;
     
@@ -97,7 +97,7 @@ hr {
      /* animations zoom effects on loading */
      animation-name: main-img-zoom;
      animation-duration: 5s;
-     animation-fill-mode: reverse;
+     animation-fill-mode:backwards;
 }
 
 /* for all images*/
@@ -366,10 +366,10 @@ th {
 
 /*  from lagerest  to smallest media*/
 
-@media (max-width: 2560 ) {
+@media (max-width: 2560px ) {
     .container {
         min-width: 1440px;
-        
+        font-size: 100%;
     }
     
 }
@@ -388,7 +388,7 @@ th {
 @media (max-width: 1024px ) {
     .container {
         min-width: 768px;
-        
+
     }
     
 }
@@ -404,10 +404,10 @@ th {
             height: 12%;
             width: 15%;
             margin-left: 58%;
-            
+
         }
-    }
-    
+    } 
+
 }
 
 /* media small */
@@ -436,8 +436,9 @@ th {
             height: 12%;
             width: 25%;
             margin-left: 58%;
-            
+
         }
+
         .col{
             font-size: 95%;
         }
@@ -449,9 +450,9 @@ th {
         #offers-main, 
         #contact-main {
             font-size: 95%;
-         
+            
         }
-        
+         
     }
 
 }
@@ -469,10 +470,18 @@ th {
             letter-spacing: 0.1rem;
             font-size: 60%;
             top: 20%;
-            height: 9%;
+            height: 13%;
             width: 27%;
             margin-left: 55%;
-            
+        }
+        
+        #footer{
+            font-size: 95%;
+        }
+
+        #footer a {
+            font-size: x-large;
+           
         }
         
     }
