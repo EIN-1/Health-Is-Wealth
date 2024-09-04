@@ -416,46 +416,47 @@ th {
 @media (max-width: 525px ) {
     .container {
         min-width: 375px;
-        #logo {
-            
-            font-size: 150%;
-            margin-left: 0.1rem;
-            margin-bottom: 1%;
-        }
-
-        #navbar {
-            margin: 0 auto;
-            font-size: 110%;
-            margin-left: 1%;
-            display: inline-block;
-            padding: 0.5%;
-        }
-        
-        #cover-text {
-            letter-spacing: 0.1rem;
-            font-size: 80%;
-            top: 15%;
-            height: 12%;
-            width: 25%;
-            margin-left: 58%;
-
-        }
-
-        .col {
-            font-size: 95%;
-        }
-
-        .reasons, 
-        #about-content,
-        #offers-head, 
-        #quetions-head,
-        #offers-main, 
-        #contact-main {
-            font-size: 95%;
-
-        }
-         
     }
+    #logo {
+        
+        font-size: 150%;
+        margin-left: 0.1rem;
+        margin-bottom: 1%;
+    }
+
+    #navbar {
+        margin: 0 auto;
+        font-size: 110%;
+        margin-left: 1%;
+        display: inline-block;
+        padding: 0.5%;
+    }
+    
+    #cover-text {
+        letter-spacing: 0.1rem;
+        font-size: 80%;
+        top: 15%;
+        height: 12%;
+        width: 25%;
+        margin-left: 58%;
+
+    }
+
+    .col {
+        font-size: 95%;
+    }
+
+    .reasons, 
+    #about-content,
+    #offers-head, 
+    #quetions-head,
+    #offers-main, 
+    #contact-main {
+        font-size: 95%;
+
+    }
+         
+    
 
 }
 
@@ -463,39 +464,40 @@ th {
 @media (max-width: 375px ) {
     .container {
         min-width: 220px;
-        #main-image {
-            height: 60%;
-            width: 90%;
-        }
+    }
+    #main-image {
+        height: 60%;
+        width: 90%;
+    }
 
-        #cover-text {
-            letter-spacing: 0.1rem;
-            font-size: 60%;
-            top: 20%;
-            height: 13%;
-            width: 27%;
-            margin-left: 55%;
-        }
-        
-        #footer{
-            font-size: 95%;
-        }
+    #cover-text {
+        letter-spacing: 0.1rem;
+        font-size: 60%;
+        top: 20%;
+        height: 13%;
+        width: 27%;
+        margin-left: 55%;
+    }
+    
+    #footer{
+        font-size: 95%;
+    }
 
-        #footer a {
-            font-size: x-large;
-
-        }
-
-        #thanks-page {
-            font-size: 190%;
-            padding: 1.5% 0.3%; 
-        }
-        
-        #smiley {
-            font-size: 300%;
-        }
+    #footer a {
+        font-size: x-large;
 
     }
+
+    #thanks-page {
+        font-size: 190%;
+        padding: 1.5% 0.3%; 
+    }
+    
+    #smiley {
+        font-size: 300%;
+    }
+
+   
 
 }
 
