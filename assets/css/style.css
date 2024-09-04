@@ -320,12 +320,12 @@ th {
 /* thanks page */
 #thanks-page {
     text-align: center;
-    background-color: white;
     height: 100%;
     width: 100%;
     margin: 0 auto;
     font-size: 250%;
-    padding: 1.7% 0.5%; 
+    padding: 1.7% 0.5%;
+    background-color: white; 
 }
 
 #smiley {
@@ -397,19 +397,20 @@ th {
 @media (max-width: 768px ) {
     .container {
         min-width: 425px;
-        #cover-text {
-            letter-spacing: 0.1rem;
-            font-size: 80%;
-            top: 20%;
-            height: 12%;
-            width: 15%;
-            margin-left: 58%;
+    }
+    #cover-text {
+        letter-spacing: 0.1rem;
+        font-size: 80%;
+        top: 20%;
+        height: 12%;
+        width: 15%;
+        margin-left: 58%;
 
-        }
-
-    } 
+    }
 
 }
+
+
 
 /* media small */
 @media (max-width: 525px ) {
@@ -440,7 +441,7 @@ th {
 
         }
 
-        .col{
+        .col {
             font-size: 95%;
         }
 
@@ -464,7 +465,7 @@ th {
         min-width: 220px;
         #main-image {
             height: 60%;
-            width: 85%;
+            width: 90%;
         }
 
         #cover-text {
@@ -484,8 +485,18 @@ th {
             font-size: x-large;
 
         }
+
+        #thanks-page {
+            font-size: 190%;
+            padding: 1.5% 0.3%; 
+        }
         
+        #smiley {
+            font-size: 300%;
+        }
+
     }
+
 }
 
 
