@@ -81,35 +81,53 @@ The wireframes for `Health is wealth` were produced in <a href="https://balsamiq
 
 ## Navigation Bar
 ![Navigation Bar](assets/readme-img/header.png)
+Navigation bar is my `header` which is easily accessed on all pages and it includes:
+* The `Logo` in the left corner which states the clear meaning of the page. 
+* The `linked pages` on the right includes the `home, offer and contact` and for user interface every current page the user is on, it's link is underlined.
 
 [Back to top](<#table-of-contents>)
 
-## home page
+## Home page
 ![home page](assets/readme-img/home2.png)
 ![home page](assets/readme-img/home3.png)
+Home page shows clearly the Image of what happens in workout sessions so the user can clearly knows once the page is uploaded it clearly shows the user why this page is suitable for them by stating: 
+* The `reasons` to join us and every reason is clarily explained for the user to unserstand. 
+* Simple `About us` statment to help the user understand more about what we do and the user can simply go to other `links` for more clarity given that every page is visibily understandable.
 
 [Back to top](<#table-of-contents>)
 
-## offers
+## offers page
 ![Offer page](assets/readme-img/offers2.png)
 ![Offer page](assets/readme-img/offers1.png)
+Offer page shows clear images of all offer's activities and it's decriptions at `Health is wealth` website. The user can join one or more offers and they are edicated below:
+* Aerobics 
+* Fitness
+* Yoga
 
 [Back to top](<#table-of-contents>)
 
-## Contact form
+## Contact page
 ![contact Page](assets/readme-img/contact2.png)
 ![contact Page](assets/readme-img/contact3.png)
+Contact page has two important items and they are indicated below:
+* Workout table this includes the days and workout time of a week, and it shows the location and it's map to enhance user interface.
+* Contact form this helps to easily email us and ask us anything, it includes offer's checkboxs, conatct email adress and telephone number and once the form is correctly filled, you can easily clike the send button then you will receive an instant `confirmation message` that proves that your message has been sent.
 
 [Back to top](<#table-of-contents>)
 
 ## Footer
 ![Footer](assets/readme-img/footer.png)
+Footer is easily accessed on all pages, to enhance a good user interface we made sure that all media links change color once the curse is on then just to indicate to the user which link their about to click on. The footer includes:
+* The `Adresse` of the Health is wealth. 
+* The `social media links` where you can join our workout community by simply clicking on the links.
+* The `Copyright` where it shows you that all rights are reserved.
 
 [Back to top](<#table-of-contents>)
 
-## Thank you page
-![thanks page](assets/readme-img/Thanks2.png)
-![thanks page](assets/readme-img/Thanks1.png)
+## Confirmation page
+![Confirmation page](assets/readme-img/Thanks2.png)
+![Confirmation page](assets/readme-img/Thanks1.png)
+Confirmation page indicates that your email has been received and we will get back to you shortly, it also include a `Home link` to enhance a good user interface although there are links in the navigation bar which is the header.
 
 [Back to top](<#table-of-contents>)
 
@@ -119,23 +137,22 @@ The wireframes for `Health is wealth` were produced in <a href="https://balsamiq
 
 
 
-# Site Structure
+
 
 
 
 # Design Choices
-Typography
+* Typography
 
-
-## Technologies Used
+# Technologies Used
 ## Testing
- `Health is wealth website` has be tested through the *`W3C html Validator`* and *`W3C CSS Validator`*, no errors or bugs were found in both code Validators then I used lighthouse testing too and the results were good too, below are the results.
+ `Health is wealth website` has be tested through the *`W3C html Validator`* and *`Jigsaw validator.`*, no errors or bugs were found in both code Validators then I used lighthouse testing too and the results were good too, below are the results.
 
 [W3C html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fein-1.github.io%2Fhealth-is-wealth%2F)
 ![W3C html Validator](assets/testing/html-Validator.png)
 
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fein-1.github.io%2Fhealth-is-wealth%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-![W3C CSS Validator](assets/testing/css-validator.png)
+[Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fein-1.github.io%2Fhealth-is-wealth%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+![Jigsaw validator](assets/testing/css-validator.png)
 
 [Google Lighthouse](https://pagespeed.web.dev/analysis/https-ein-1-github-io-health-is-wealth/1iwt5z7gv0?form_factor=mobile&category=performance&category=accessibility&category=best-practices&category=seo&hl=en-GB&utm_source=lh-chrome-ext)
 ![lighthouse](assets/testing/lighthouse.png)
@@ -171,7 +188,7 @@ The responsive design tests were carried out manually with [Google Chrome DevToo
 
 [Back to top](<#table-of-contents>)
 
-### Browser Compatibility
+## Browser Compatibility
 `Health Is Wealth` website was tested for functionality and appearance in the following browsers on desktop. No visible or funcional issues on all 
 the browsers below.
 
@@ -181,12 +198,10 @@ the browsers below.
 
 [Back to top](<#table-of-content>)
 
-
-## Technologies Used
-### Main Language
+## Main Language
 - Python Language
 
-### Frameworks, Libraries & Programs
+## Frameworks, Libraries & Programs
 
 - [**AmIResponsive**](https://ui.dev/amiresponsive) - the responsive preview image on different gadgets.
 - [**iloveimg**](https://www.iloveimg.com/) - to compress the images.
