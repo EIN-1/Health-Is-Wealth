@@ -4,6 +4,7 @@ This is a fitness gym which encourages all people to work-out to improve your al
 # welcome to <a href="https://ein-1.github.io/health-is-wealth/" target="_blank" rel="noopener">Health is wealth</a>
 
 ![Health is wealth responsive design](assets/readme-img/home1.png)
+This website was designed and responds to all network devices to enhance flexibily to users.
 
 # Index – Table of Contents
 * [**User Experience (UX)**](#user-experience-ux)
@@ -98,7 +99,7 @@ Home page shows clearly the Image of what happens in workout sessions so the use
 
 ## offers page
 ![Offer page](assets/readme-img/offers2.png)
-![Offer page](assets/readme-img/offers1.png)
+
 Offer page shows clear images of all offer's activities and it's decriptions at `Health is wealth` website. The user can join one or more offers and they are edicated below:
 * Aerobics 
 * Fitness
@@ -108,7 +109,7 @@ Offer page shows clear images of all offer's activities and it's decriptions at 
 
 ## Contact page
 ![contact Page](assets/readme-img/contact2.png)
-![contact Page](assets/readme-img/contact3.png)
+
 Contact page has two important items and they are indicated below:
 * Workout table this includes the days and workout time of a week, and it shows the location and it's map to enhance user interface.
 * Contact form this helps to easily email us and ask us anything, it includes offer's checkboxs, conatct email adress and telephone number and once the form is correctly filled, you can easily clike the send button then you will receive an instant `confirmation message` that proves that your message has been sent.
@@ -126,7 +127,7 @@ Footer is easily accessed on all pages, to enhance a good user interface we made
 
 ## Confirmation page
 ![Confirmation page](assets/readme-img/Thanks2.png)
-![Confirmation page](assets/readme-img/Thanks1.png)
+
 Confirmation page indicates that your email has been received and we will get back to you shortly, it also include a `Home link` to enhance a good user interface although there are links in the navigation bar which is the header.
 
 [Back to top](<#table-of-contents>)
