@@ -163,6 +163,9 @@ The site was also tested using [Google Lighthouse](https://developers.google.com
 * Accessibility - Is the site acccessible for all users and how can it be improved.
 * Best Practices - Site conforms to industry best practices.
 * SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
+### Form error testing
+![Form error testing](assets/testing/formTesting.png)
+Here we minimized user's form errors before it'S submited to us,this was made to enhance user interface.
 
 [Back to top](<#table-of-contents>)
 
@@ -208,17 +211,15 @@ the browsers below.
 - [**iloveimg**](https://www.iloveimg.com/) - to compress the images.
 - [**Google Fonts**](https://fonts.google.com/) site was used to pick the best typography style. The most importance was given to balance between style and readability. As a developer I needed to ensure that all text is displayed clear.
 - [**Balsamiq**](https://balsamiq.cloud/s1zt7dl/p9ow423/r18E1) - create wireframe design for this website.
-- [**Python**](https://www.python.org/) - main BackEnd programming language of the project
-- [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML) - templates programming language of this project (FrontEnd)
+- [**Python**](https://www.python.org/) - main BackEnd programming language of the project.
+- [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML) - templates programming language of this project (FrontEnd).
 - [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS) - styling the project.
-- [**Gitpod**](https://gitpod.com/) - online IDE - gitpod was used to create this project
-- [**Git**](https://git-scm.com/doc) - to make commitments of progress and push the results back to GitHub
-- [**GitHub**](https://github.com/) - to keep the track of version control
-
-- [**Google Fonts**](https://fonts.google.com/) - used for picking the best typography
-- [**FavIcon.io**](https://favicon.io/favicon-converter/) - used to compress favicon
-- [**W3Schools**](https://www.w3schools.com/) - useful information and cheat sheets
-- [**Google Fonts**](https://fonts.google.com/) site was used to pick the best typography style. The most importance was given to balance between style and readability. As a developer I needed to ensure that all text is displayed clear.
+- [**Gitpod**](https://gitpod.com/) - online IDE - gitpod was used to create this project.
+- [**Git**](https://git-scm.com/doc) - to make commitments of progress and push the results back to GitHub.
+- [**GitHub**](https://github.com/) - to keep the track of version control.
+- [**Google Fonts**](https://fonts.google.com/) - used for picking the best typography.
+- [**FavIcon.io**](https://favicon.io/favicon-generator/) - used to generate favicon.
+- [**W3Schools**](https://www.w3schools.com/) - useful information and cheat sheets.
 
 
 [Back to top](<#table-of-contents>)
