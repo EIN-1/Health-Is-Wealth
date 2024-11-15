@@ -171,7 +171,7 @@ p span {
 #quetions-head-main, #testimonial-head-main {
     font-size: 100%;
 }
-.reasons, #offers-head, #quetions-head,#offers-main, #contact-main, .testimonials-zone, #testimonial-head {
+.reasons, #offers-head, #quetions-head,#offers-main, #contact-main, .testimonials-zone, #testimonial-head, #about-community-main {
     display:flex;
     flex-wrap: wrap;
 }
@@ -186,12 +186,12 @@ p span {
     flex:11 18em;
 }
 
-#about-content {
+#about-story, #community-content {
     background-color: whitesmoke;
     height: 100%;
 } 
 
-#about-content, #offers-head, #quetions-head, #testimonial-head {
+#about-story, #community-content, #offers-head, #quetions-head, #testimonial-head {
     margin: 0 auto;
     width: 98%;
     border-radius: 20px;
@@ -234,6 +234,15 @@ p span {
     
 }
 #offers-main > * {
+    position:relative;
+    height: 100%;
+    margin: 2%;
+    margin-top: 1.3%;
+    padding: 1rem;
+    flex:11 22em; 
+}
+
+#about-community-main > * {
     position:relative;
     height: 100%;
     margin: 2%;
