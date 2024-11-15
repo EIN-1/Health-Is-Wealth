@@ -16,6 +16,7 @@ body {
     
 }
 
+
 /* header is fixed  */
 #header { 
     clear: both;
@@ -386,6 +387,7 @@ th {
     width: 15%;
     bottom: 20%;
 }
+
 
 /* scroll on top arrow hover to enhance user interface*/
 #arrow-up:hover{
