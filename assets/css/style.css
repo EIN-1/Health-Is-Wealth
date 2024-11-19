@@ -227,10 +227,7 @@ p span {
     background-color: whitesmoke;
     flex:11 18em;
 }
-.citation {
-    font-style: italic; /* Italics for emphasis */
-    color: black; /* black color to differentiate from the main text */
-}
+
 
 
 /* offers, quetion and testimonial headings */
