@@ -97,25 +97,26 @@ p span {
 /* main image */
 
 #main-image {
-    height: 50%;
-    width: 70%;
+    width: 75%;
     margin-top: 0;
-    margin-left: 18%;
-    box-sizing: border-box;
-    object-fit: contain;
     overflow: hidden;
+    margin-left: 12%;
+
 
      /* animations zoom effects on loading */
      animation-name: main-img-zoom;
-     animation-duration: 5s;
+     animation-duration: 3s;
      animation-fill-mode:backwards;
 }
 
 /* for all images*/
 .image {
     width: 100%;
+    margin: 0 auto;
     height: auto;
     border-radius: 3%;
+    display: block;
+    object-fit: cover; /* Adjust to maintain aspect ratio */
 }
 
 /* Styling for rounded-circle class */
@@ -564,7 +565,7 @@ th {
     #main-image {
         height: 60%;
         width: 90%;
-        margin-left: 10%;
+        margin-left: 5%;
     }
     
     #cover-text {
