@@ -225,7 +225,32 @@ the browsers below.
 [Back to top](<#table-of-contents>)
 
 ## Deployment
+
 ## Credits
-## Content
-## Media
-## Acknowledgements
+### Content
+
+* The font came from [Google Fonts](https://fonts.google.com/).
+* The map is embedded from [Google Maps](https://www.google.com/maps).
+* The icons came from [Font Awesome](https://fontawesome.com/).
+* [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
+* The colour palate was compiled by [Coolors](https://coolors.co/).
+* The code for the Safari specific styling was inspired by an example on [Stack Overflow](https://stackoverflow.com/).
+
+### Media
+* The photos all came from , [pexels](https://www.pexels.com/).
+* The photos were compressed using [iloveimg](https://www.iloveimg.com/).
+
+[Back to top](<#contents>)
+
+# Acknowledgements
+The site was created as part of the **Portfolio 1 Project** for the **Full Stack Software Developer** program at the [Code Institute](https://codeinstitute.net/). 🎉 
+
+I would like to extend my heartfelt gratitude to my mentor, [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), and the incredible **Slack community**, along with everyone at the Code Institute for their invaluable help and support throughout this journey. 🙏
+
+**Health is Wealth** is an inspiring workout group concept that I developed, focusing on building a supportive community where individuals can achieve their fitness goals together! 💪🌟
+
+
+Elsie Nagawa 2024.
+
+[Back to top](<#contents>)
+
