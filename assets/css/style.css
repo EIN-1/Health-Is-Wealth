@@ -196,11 +196,11 @@ p span {
 .reasons > * {
     border-radius: 40px;
     min-height: 2px;
-    padding: 1. 1rem;
+    padding: 1.1rem;
     margin: 1%;
     margin-top: 1%;
     background-color: whitesmoke;
-    flex:11 18em;
+    flex:1 1 18em;
 }
 
 #about-story, #community-content {
