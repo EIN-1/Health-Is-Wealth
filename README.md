@@ -23,9 +23,11 @@ This website was designed and responds to all network devices to enhance flexibi
     * [**Home**](<#navigation-menu>)
          * [Navigation menu](<#navigation-menu>)
          * [Reasons ](<#reasons >)
-         * [About](<#about>)
          * [Testimonials](<#testimonials>)
          * [Footer](<#footer>)
+    * [**About Us**](<#about-us>)
+        * About us
+        * Our Community
     * [**Offers**](<#offers>)
         * Aerobics
         * Fitness
@@ -34,7 +36,7 @@ This website was designed and responds to all network devices to enhance flexibi
         * Timetable with location map
         * Contact form with Contact details
     * [**Form Confirmation**](<#form-confirmation>)
-        * Thank you page
+        * Thank for reaching us message
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
@@ -48,76 +50,94 @@ This website was designed and responds to all network devices to enhance flexibi
 
 ### User Stories
 
-* As a user I want to be able to navigate through the whole site smoothly.
+* As a user, I want to navigate through the entire site smoothly.
 
+* As a user, I want to understand the purpose of the site upon loading.
 
-* As a user I want to understand the purpose of the site upon loading it.
+* As a user, I want to easily contact `Health is Wealth` for more information.
 
+* As a user, I want to see the existing offers on the `Health is Wealth` website.
 
-* As a user I want to easily be able to contact Wawas Woods for more information.
+* As a user, I want to learn more about `Health is Wealth`.
 
+* As a user, I want to know about other people's experiences with `Health is Wealth`.
 
-* As a user I want to see existing offers on `Health is Wealth` website.
+* As a user, I want to connect with `Health is Wealth` on social media.
 
+* As a user, I want to know what inspired the creation of `Health is Wealth`.
 
-* As a user I want to know more about `Health is Wealth`.
-
-
-* As a user I want to know how other peoples' experiences with `Health is Wealth` have been.
-
-
-* As a user I want to connect with `Health is Wealth` on social media.
-
-
-* As a user I want to know what inspired `Health is Wealth`.
 
 
 [Back to top](<#table-of-contents>)
 
-# Features
-
-## Design
+### Wireframes
 ![home page](assets/readme-img/Balsamiq-wireframe.png)
 
-The wireframes for `Health is wealth` were produced in <a href="https://balsamiq.cloud/s1zt7dl/p9ow423/r18E1" target="_blank" rel="noopener">Balsamiq</a>. There are frames for a website display and a small mobile device. The final site is slightly different from the wireframes due to developments but I tired to keep in as the final site display.
+The wireframes for `Health is wealth` were produced in <a href="https://balsamiq.cloud/s1zt7dl/p9ow423/r18E1" target="_blank" rel="noopener">Balsamiq</a>. There are frames for a website display and a small mobile device. The final site is slightly different from the wireframes due to developments, I made an effort to maintain consistency with but the final site display.
 
-## Navigation Bar
+### Site Structure
+
+### Design Choices
+
+### Typography
+
+### Colour Scheme
+
+## Features
+### Navigation Bar
 ![Navigation Bar](assets/readme-img/header.png)
-Navigation bar is my `header` which is easily accessed on all pages and it includes:
-* The `Logo` in the left corner which states the clear meaning of the page. 
-* The `linked pages` on the right includes the `home, offer and contact` and for user interface every current page the user is on, it's link is underlined.
+
+The Navigation bar serves as the header and is easily accessible on all pages. It includes:
+
+- **Logo**: Located in the left corner, the logo clearly conveys the meaning of the website and serves as a link back to the homepage.
+
+- **Linked Pages**: On the right side, you'll find links to essential pages including **Home**, **About Us**, **Offers**, and **Contact**. For improved user experience, the link to the current page is underlined, helping users easily identify their location within the site.
+
 
 [Back to top](<#table-of-contents>)
 
-## Home page
+### Home page
 ![home page](assets/readme-img/home2.png)
 ![home page](assets/readme-img/home3.png)
-Home page shows clearly the Image of what happens in workout sessions so the user can clearly knows once the page is uploaded it clearly shows the user why this page is suitable for them by stating: 
-* The `reasons` to join us and every reason is clarily explained for the user to unserstand. 
-* Simple `About us` statment to help the user understand more about what we do and the user can simply go to other `links` for more clarity given that every page is visibily understandable.
+
+The homepage of our site prominently displays an engaging image that captures the essence of our workout sessions. This immediate visual helps users understand why our fitness community is ideal for them. Here's what you can expect:
+
+- **Reasons to Join Us**: Each reason to become a part of our community is thoroughly explained, making it easy for users to understand the benefits we offer.
+
+- **Testimonials**: Statements from members who have joined our community, sharing their experiences and feedback about what makes us stand out.
 
 [Back to top](<#table-of-contents>)
 
-## offers page
+### Abour Us page
+![home page](assets/readme-img/home2.png)
+![home page](assets/readme-img/home3.png)
+
+- **About Us Statement**: A concise description of who we are and what our community does helps users quickly grasp our mission. The page also features an image of a group of people engaged in road work, illustrating our active lifestyle. Additionally, users can navigate to other links for more detailed information, ensuring each page is clear and easily understandable.
+
+[Back to top](<#table-of-contents>)
+
+### offers page
 ![Offer page](assets/readme-img/offers2.png)
 
-Offer page shows clear images of all offer's activities and it's decriptions at `Health is wealth` website. The user can join one or more offers and they are edicated below:
-* Aerobics 
-* Fitness
-* Yoga
+The Offer page on the `Health is Wealth` website showcases clear images of all our activities along with detailed descriptions. Users can explore and choose to join one or more of our offered activities, which are outlined below:
+- **Aerobics**
+- **Fitness**
+- **Yoga**
 
 [Back to top](<#table-of-contents>)
 
-## Contact page
+### Contact page
 ![contact Page](assets/readme-img/contact2.png)
 
-Contact page has two important items and they are indicated below:
-* Workout table this includes the days and workout time of a week, and it shows the location and it's map to enhance user interface.
-* Contact form this helps to easily email us and ask us anything, it includes offer's checkboxs, conatct email adress and telephone number and once the form is correctly filled, you can easily clike the send button then you will receive an instant `confirmation message` that proves that your message has been sent.
+The Contact page is designed with two important features to enhance user interaction:
+
+- **Workout Table**: This section provides a comprehensive schedule of workout days and times for the week. It also includes the location and an integrated map, enhancing the user interface by making it easy to find us.
+
+- **Contact Form**: Easily reach out to us through this user-friendly form. It includes checkboxes for offers, a field for your contact email address, and telephone number. Once the form is correctly filled out and the send button is clicked, you will receive an instant confirmation message, verifying that your message has been sent successfully.
 
 [Back to top](<#table-of-contents>)
 
-## Footer
+### Footer
 ![Footer](assets/readme-img/footer.png)
 Footer is easily accessed on all pages, to enhance a good user interface we made sure that all media links change color once the curse is on then just to indicate to the user which link their about to click on. The footer includes:
 * The `Adresse` of the Health is wealth. 
@@ -126,10 +146,10 @@ Footer is easily accessed on all pages, to enhance a good user interface we made
 
 [Back to top](<#table-of-contents>)
 
-## Confirmation page
+### Confirmation page
 ![Confirmation page](assets/readme-img/Thanks2.png)
 
-Confirmation page indicates that your email has been received and we will get back to you shortly, it also include a `Home link` to enhance a good user interface although there are links in the navigation bar which is the header.
+The Confirmation page indicates that your email has been successfully received, and we will get back to you shortly. This page provides reassurance and ensures that you know your message is in good hands.
 
 [Back to top](<#table-of-contents>)
 
@@ -204,34 +224,35 @@ the browsers below.
 [Back to top](<#table-of-content>)
 
 ## Testing User Stories
-* As a user I want to be able to navigate through the whole site smoothly.
-    * Navigation is at the top of every page as my **Header**.
-    * In the `Header`, there are links to all **pages**.
-    * On every page there is a **scroll up arrow** to ease the route to the navigation menu.
 
-* As a user I want to understand the purpose of the site upon loading it.
-    * On the home page, the logo **`Health is Wealth`** combined with the main image and those in the **offers** allows the user to interpolate the main purpose of the site.
+* **As a user, I want to be able to navigate through the whole site smoothly.**
+    * Navigation is located at the top of every page as part of the **Header**.
+    * The **Header** includes links to all **pages**.
+    * On every page, there is a **scroll-up arrow** to facilitate returning to the navigation menu.
 
-* As a user I want to easily be able to contact Wawas Woods for more information.
-    * On the navigation bar there is a link to **contact** page, there are contact details, workout timetable and location map.
-    * On the **contact** page there is also a **form** to easily e-mail us.
+* **As a user, I want to understand the purpose of the site upon loading it.**
+    * On the home page, the logo **`Health is Wealth`** combined with the main image and the images in the **Offers** section clearly convey the primary purpose of the site.
 
-* As a user I want to see existing offers on `Health is Wealth` website.
-    * On the home page navigation bar there is a link to **offers** section.
-    * On **offers** page there are images of every offered package and a brief descripton of each offer. 
+* **As a user, I want to easily contact Health is Wealth for more information.**
+    * The navigation bar features a link to the **Contact** page, where users can find contact details, a workout timetable, and a location map.
+    * The **Contact** page also includes a **form** that allows users to easily email us.
 
-* As a user I want to know more about `Health is Wealth`.
-    * On the home page there is the **About** section. This gives a brief description on how `Health is Wealth` is.
+* **As a user, I want to see existing offers on the `Health is Wealth` website.**
+    * The home page navigation bar contains a link to the **Offers** section.
+    * The **Offers** page showcases images of every available package along with a brief description of each offer.
 
-* As a user I want to know how other peoples' experiences with `Health is Wealth` have been.
-    * At the bottom of the home page there are some **testimonials** from previous customers.
+* **As a user, I want to know more about `Health is Wealth`.**
+    * The home page includes an **About** section that provides a brief description of what `Health is Wealth` is all about.
 
-* As a user I want to connect with `Health is Wealth` on social media.
-    * In the **footer** of every page there are some **social media links** to `Health is Wealth` social media pages.
+* **As a user, I want to know how other people's experiences with `Health is Wealth` have been.**
+    * At the bottom of the home page, there are several **testimonials** from previous customers.
 
-* As a user I want to know what inspired `Health is Wealth`.
-    * One of the pages is an **inspiration** page. It is designed to give the user an idea of how projects start out and what they could potentially become.
-    * On the **inspiration** page there are also simplistic descriptions for how to join the workout groups.
+* **As a user, I want to connect with `Health is Wealth` on social media.**
+    * In the **footer** of every page, there are **social media links** to `Health is Wealth` social media pages.
+
+* **As a user, I want to know what inspired `Health is Wealth`.**
+    * One of the pages is an **Inspiration** page designed to give users insight into how projects begin and what they can potentially become.
+    * The **Inspiration** page also includes straightforward descriptions of how to join the workout groups.
 
 [Back to top](<#table-of-contents>)
 
