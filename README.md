@@ -42,34 +42,30 @@ This website was designed and responds to all network devices to enhance flexibi
 ## User Experience (UX)
 
 ### User Stories
+
 * As a user I want to be able to navigate through the whole site smoothly.
-    * Navigation is at the top of every page as my **Header**.
-    * In the `Header`, there are links to all **pages**.
-    * On every page there is a **scroll up arrow** to ease the route to the navigation menu.
+
 
 * As a user I want to understand the purpose of the site upon loading it.
-    * On the home page, the logo **`Health is Wealth`** combined with the main image and those in the **offers** allows the user to interpolate the main purpose of the site.
+
 
 * As a user I want to easily be able to contact Wawas Woods for more information.
-    * On the navigation bar there is a link to **contact** page, there are contact details, workout timetable and location map.
-    * On the **contact** page there is also a **form** to easily e-mail us.
+
 
 * As a user I want to see existing offers on `Health is Wealth` website.
-    * On the home page navigation bar there is a link to **offers** section.
-    * On **offers** page there are images of every offered package and a brief descripton of each offer. 
+
 
 * As a user I want to know more about `Health is Wealth`.
-    * On the home page there is the **About** section. This gives a brief description on how `Health is Wealth` is.
+
 
 * As a user I want to know how other peoples' experiences with `Health is Wealth` have been.
-    * At the bottom of the home page there are some **testimonials** from previous customers.
+
 
 * As a user I want to connect with `Health is Wealth` on social media.
-    * In the **footer** of every page there are some **social media links** to `Health is Wealth` social media pages.
+
 
 * As a user I want to know what inspired `Health is Wealth`.
-    * One of the pages is an **inspiration** page. It is designed to give the user an idea of how projects start out and what they could potentially become.
-    * On the **inspiration** page there are also simplistic descriptions for how to join the workout groups.
+
 
 [Back to top](<#table-of-contents>)
 
@@ -201,6 +197,39 @@ the browsers below.
 - Mozilla Firefox - 127.0 (64-bit)
 
 [Back to top](<#table-of-content>)
+
+## Testing User Stories
+* As a user I want to be able to navigate through the whole site smoothly.
+    * Navigation is at the top of every page as my **Header**.
+    * In the `Header`, there are links to all **pages**.
+    * On every page there is a **scroll up arrow** to ease the route to the navigation menu.
+
+* As a user I want to understand the purpose of the site upon loading it.
+    * On the home page, the logo **`Health is Wealth`** combined with the main image and those in the **offers** allows the user to interpolate the main purpose of the site.
+
+* As a user I want to easily be able to contact Wawas Woods for more information.
+    * On the navigation bar there is a link to **contact** page, there are contact details, workout timetable and location map.
+    * On the **contact** page there is also a **form** to easily e-mail us.
+
+* As a user I want to see existing offers on `Health is Wealth` website.
+    * On the home page navigation bar there is a link to **offers** section.
+    * On **offers** page there are images of every offered package and a brief descripton of each offer. 
+
+* As a user I want to know more about `Health is Wealth`.
+    * On the home page there is the **About** section. This gives a brief description on how `Health is Wealth` is.
+
+* As a user I want to know how other peoples' experiences with `Health is Wealth` have been.
+    * At the bottom of the home page there are some **testimonials** from previous customers.
+
+* As a user I want to connect with `Health is Wealth` on social media.
+    * In the **footer** of every page there are some **social media links** to `Health is Wealth` social media pages.
+
+* As a user I want to know what inspired `Health is Wealth`.
+    * One of the pages is an **inspiration** page. It is designed to give the user an idea of how projects start out and what they could potentially become.
+    * On the **inspiration** page there are also simplistic descriptions for how to join the workout groups.
+
+[Back to top](<#table-of-contents>)
+
 
 ## Main Language
 - Python Language
