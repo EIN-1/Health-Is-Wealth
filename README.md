@@ -241,8 +241,9 @@ the browsers below.
     * The home page navigation bar contains a link to the **Offers** section.
     * The **Offers** page showcases images of every available package along with a brief description of each offer.
 
-* **As a user, I want to know more about `Health is Wealth`.**
-    * The home page includes an **About** section that provides a brief description of what `Health is Wealth` is all about.
+* **As a user, I want to know what inspired `Health is Wealth`.**
+    * The **About Us** page offers insights into our origins and the inspiration behind our community, helping users understand how we began and what they can potentially achieve.
+    * This page also provides straightforward descriptions of how to join our workout groups.
 
 * **As a user, I want to know how other people's experiences with `Health is Wealth` have been.**
     * At the bottom of the home page, there are several **testimonials** from previous customers.
@@ -250,9 +251,7 @@ the browsers below.
 * **As a user, I want to connect with `Health is Wealth` on social media.**
     * In the **footer** of every page, there are **social media links** to `Health is Wealth` social media pages.
 
-* **As a user, I want to know what inspired `Health is Wealth`.**
-    * One of the pages is an **Inspiration** page designed to give users insight into how projects begin and what they can potentially become.
-    * The **Inspiration** page also includes straightforward descriptions of how to join the workout groups.
+
 
 [Back to top](<#table-of-contents>)
 
@@ -263,7 +262,7 @@ the browsers below.
 ## Frameworks, Libraries & Programs
 
 - [**AmIResponsive**](https://ui.dev/amiresponsive) - the responsive preview image on different gadgets.
-- [**iloveimg**](https://www.iloveimg.com/) - to compress the images.
+- [**iloveimg**](https://www.iloveimg.com/) - compresed the images.
 - [**Google Fonts**](https://fonts.google.com/) site was used to pick the best typography style. The most importance was given to balance between style and readability. As a developer I needed to ensure that all text is displayed clear.
 - [**Balsamiq**](https://balsamiq.cloud/s1zt7dl/p9ow423/r18E1) - create wireframe design for this website.
 - [**Python**](https://www.python.org/) - main BackEnd programming language of the project.
@@ -275,7 +274,8 @@ the browsers below.
 - [**Google Fonts**](https://fonts.google.com/) - used for picking the best typography.
 - [**FavIcon.io**](https://favicon.io/favicon-generator/) - used to generate favicon.
 - [**W3Schools**](https://www.w3schools.com/) - useful information and cheat sheets.
-
+- [**webaim.**](https://wave.webaim.org/report#/https://ein-1.github.io/health-is-wealth) - used to check for errors and color contrast.
+- [**coolors**](https://coolors.co/contrast-checker/) - used to check color contrast.
 
 [Back to top](<#table-of-contents>)
 
