@@ -433,6 +433,14 @@ th {
     color:#5A0D5A;
 }
 
+
+.about-links {
+    text-decoration: none; 
+}
+.about-links:hover {
+    border-bottom: 3px solid #5A0D5A
+}
+
 /* footer */
 #footer {
     clear: both;
@@ -568,7 +576,7 @@ th {
     }
 
 
-    
+
 }
 
 /* media smaller */
