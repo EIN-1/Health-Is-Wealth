@@ -395,7 +395,7 @@ th {
     height: 50%;
     width: 100%;
     padding: 1rem 0.120rem;
-    background-color:#c0c2ae;
+    background-color: #C0C2AE;
 }
 
 /* thanks page */
@@ -424,6 +424,7 @@ th {
     height: auto;
     width: 15%;
     bottom: 12%;
+
 }
 
 
@@ -566,10 +567,8 @@ th {
 
     }
 
-    #arrow-up{
-        bottom: 35%;
-    }
-           
+
+    
 }
 
 /* media smaller */
