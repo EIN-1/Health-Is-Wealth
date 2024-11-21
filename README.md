@@ -79,9 +79,17 @@ The wireframes for `Health is wealth` were produced in <a href="https://balsamiq
 
 ### Design Choices
 
-### Typography
+#### Typography
+* The fonts chosen for the "Health is Wealth" project are 'Noto Serif' for body text and 'Oswald' for headings. They fall back to serif and sans-serif respectively if unavailable.
 
-### Colour Scheme
+    * 'Noto Serif' is used for the body text, providing a classic and readable design that conveys a sense of approachability and professionalism to users.
+
+    * 'Oswald' is selected for headings to create a strong, modern contrast with the body text. Its structured sans-serif style enhances the clarity and focus of key information.
+
+    These fonts together establish a balanced and inviting aesthetic, aligning with the welcoming ethos of our fitness community.
+
+
+#### Colour Scheme
 
 ## Features
 ### Navigation Bar
