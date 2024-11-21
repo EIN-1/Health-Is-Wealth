@@ -1,9 +1,9 @@
 ## Health is wealth
-Welcome to **Health is Wealth**, a vibrant fitness community dedicated to encouraging everyone to work out and improve their overall well-being! 🏋️‍♂️✨
+Welcome to **Health is Wealth**, a vibrant fitness community dedicated to encouraging everyone to work out and improve their overall well-being! 🏋️‍♂️
 
-We believe that fitness knows no age limit; our space is inclusive and welcoming to all individuals, regardless of how young or old you are. Here, we focus on both physical and mental strength, creating an environment that many consider their happy place. 😊
+We believe that fitness knows no age limit; our space is inclusive and welcoming to all individuals, regardless of how young or old you are. Here, we focus on both physical and mental strength, creating an environment that many consider their happy place.
 
-At Health is Wealth, we combine effective workouts with fun, making our gym sessions truly exceptional. Our members often recommend us to their friends and family because we prioritize everyone’s fitness journey. Whatever session you choose, you’ll be on the path to achieving the best results! Let's work out together and enjoy the journey to better health! 💪
+At Health is Wealth, we combine effective workouts with fun, making our gym sessions truly exceptional. Our members often recommend us to their friends and family because we prioritize everyone’s fitness journey. Whatever session you choose, you’ll be on the path to achieving the best results! Let's work out together and enjoy the journey to better health!
 
 
 # welcome to <a href="https://ein-1.github.io/health-is-wealth/" target="_blank" rel="noopener">Health is wealth</a>
@@ -287,6 +287,26 @@ the browsers below.
 
 
 ## Deployment
+## Fork
+### How To Fork The Repository On GitHub
+![Fork](/fork.png)
+It is possible to do a copy of a GitHub Repository by forking the GitHub account. The copy can then be viewed and it is also possible to do changes in the copy without affecting the original repository. To fork the repository, take these steps:
+
+1. After logging in to GitHub, locate the repository. On the top right side of the page there is a 'Fork' button. Click on the button to create a copy of the original repository.
+
+[Back to top](<#table-of-content>)
+
+## Clone
+### Create A Local Clone of A Project
+![Clone](/clone.png)
+To create a local clone of your repository, follow these steps:
+
+1. When you are in the repository, find the code tab and click it.
+2. To the left of the green GitPod button, press the 'code' menu. There you will find a link to the repository. Click on the clipboard icon to copy the URL.
+3. Use an IDE and open Git Bash. Change directory to the location where you want the cloned directory to be made.
+4. Type 'git clone', and then paste the URL that you copied from GitHub. Press enter and a local clone will be created.
+
+[Back to top](<#table-of-content>)
 
 
 ## Credits
@@ -322,7 +342,7 @@ the browsers below.
 # Acknowledgements
 The site was created as part of the **Portfolio 1 Project** for the **Full Stack Software Developer** program at the [Code Institute](https://codeinstitute.net/). 🎉 
 
-I would like to extend my heartfelt gratitude to my mentor, [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), and the incredible **Slack community**, along with everyone at the Code Institute for their invaluable help and support throughout this journey. 🙏
+I would like to extend my heartfelt gratitude to my mentor, [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), and the incredible **Slack community**, along with everyone at the Code Institute for their invaluable help and support throughout this journey.
 
 **Health is Wealth** is an inspiring workout group concept that I developed, focusing on building a supportive community where individuals can achieve their fitness goals together! 💪🌟
 
