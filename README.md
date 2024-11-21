@@ -17,8 +17,8 @@ This website was designed and responds to all network devices to enhance flexibi
     * [**Wireframes**](<#wireframes>)
     * [**Site Structure**](<#site-structure>)
     * [**Design Choices**](<#design-choices>)
-    *  [**Typography**](<#typography>)
-    *  [**Colour Scheme**](<#colour-scheme>)
+        * [**Typography**](<#typography>)
+        * [**Colour Scheme**](<#colour-scheme>)
 * [**Features**](<#features>)
     * [**Home**](<#navigation-menu>)
          * [Navigation menu](<#navigation-menu>)
@@ -46,9 +46,9 @@ This website was designed and responds to all network devices to enhance flexibi
     * [**Media**](<#media>)
 * [**Acknowledgements**](<#acknowledgements>)
 
-## User Experience (UX)
+# User Experience (UX)
 
-### User Stories
+## User Stories
 
 * As a user, I want to navigate through the entire site smoothly.
 
@@ -70,16 +70,16 @@ This website was designed and responds to all network devices to enhance flexibi
 
 [Back to top](<#table-of-contents>)
 
-### Wireframes
+## Wireframes
 ![home page](assets/readme-img/Balsamiq-wireframe.png)
 
 The wireframes for `Health is wealth` were produced in <a href="https://balsamiq.cloud/s1zt7dl/p9ow423/r18E1" target="_blank" rel="noopener">Balsamiq</a>. There are frames for a website display and a small mobile device. The final site is slightly different from the wireframes due to developments, I made an effort to maintain consistency with but the final site display.
 
-### Site Structure
+## Site Structure
 
-### Design Choices
+## Design Choices
 
-#### Typography
+### Typography
 * The fonts chosen for the "Health is Wealth" project are 'Noto Serif' for body text and 'Oswald' for headings. They fall back to serif and sans-serif respectively if unavailable.
 
     * 'Noto Serif' is used for the body text, providing a classic and readable design that conveys a sense of approachability and professionalism to users.
@@ -89,7 +89,21 @@ The wireframes for `Health is wealth` were produced in <a href="https://balsamiq
     These fonts together establish a balanced and inviting aesthetic, aligning with the welcoming ethos of our fitness community.
 
 
-#### Colour Scheme
+### Colour Scheme
+
+The colour scheme for the **`Health is Wealth`**  project is centered around a vibrant palette that reflects energy, balance, and vitality. It includes the following colors:
+
+![Colour Palette image](assets/readme-images/colors.png)
+- **#5A0D5A**: A deep and rich purple, symbolizing luxury and creativity, serving as a primary accent color for key elements.
+- **#A8DD67**: A fresh green hue, representing health, growth, and renewal, fitting perfectly with the workout and wellness theme.
+- **#C0C2AE**: A soft neutral tone that complements other colors, offering balance and a sense of calm.
+- **#851285**: A bold magenta shade, adding energy and warmth, helping to highlight important information.
+- **#F5F5F5**: An off-white, clean background color that enhances readability and contrasts well with darker text.
+- **#000000**: Pure black, used for text and essential elements, ensuring clarity and strong contrast.
+
+This color palette aligns with the ethos of our community, promoting a sense of enthusiasm and inclusiveness.
+
+[Back to top](<#table-of-contents>)
 
 ## Features
 ### Navigation Bar
@@ -162,18 +176,7 @@ The Confirmation page indicates that your email has been successfully received, 
 [Back to top](<#table-of-contents>)
 
 
-# Future Features
-* 
-
-
-
-
-
-
-
-# Design Choices
-* Typography
-
+# Future Feature
 # Technologies Used
 ## Testing
  `Health is wealth website` has be tested through the *`W3C html Validator`* and *`Jigsaw validator.`*, no errors or bugs were found in both code Validators then I used lighthouse testing too and the results were good too, below are the results.
