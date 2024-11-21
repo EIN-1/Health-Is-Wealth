@@ -8,7 +8,7 @@ At Health is Wealth, we combine effective workouts with fun, making our gym sess
 
 # welcome to <a href="https://ein-1.github.io/health-is-wealth/" target="_blank" rel="noopener">Health is wealth</a>
 
-![Health is wealth responsive design](assets/readme-img/home1.png)
+![Health is wealth responsive design](assets/readme-img/responsive.png)
 This website was designed and responds to all network devices to enhance flexibily to users.
 
 # [Table of Contents](#table-of-contents)
@@ -106,7 +106,7 @@ The **Health is Wealth** website consists of four main pages:
 
 The colour scheme for the **`Health is Wealth`**  project is centered around a vibrant palette that reflects energy, balance, and vitality. It includes the following colors:
 
-![Colour Palette image](assets/readme-images/colors.png)
+![Colour Palette image](assets/readme-img/colors.png)
 - **#5A0D5A**: A deep and rich purple, symbolizing luxury and creativity, serving as a primary accent color for key elements.
 - **#A8DD67**: A fresh green hue, representing health, growth, and renewal, fitting perfectly with the workout and wellness theme.
 - **#C0C2AE**: A soft neutral tone that complements other colors, offering balance and a sense of calm.
@@ -115,6 +115,8 @@ The colour scheme for the **`Health is Wealth`**  project is centered around a v
 - **#000000**: Pure black, used for text and essential elements, ensuring clarity and strong contrast.
 
 This color palette aligns with the ethos of our community, promoting a sense of enthusiasm and inclusiveness.
+Below is a color contrast testing image.
+![color contrast testing](/assets/testing/color-contrast.png)
 
 [Back to top](<#table-of-contents>)
 
@@ -132,30 +134,28 @@ The Navigation bar serves as the header and is easily accessible on all pages. I
 [Back to top](<#table-of-contents>)
 
 ### Home
-![home page](assets/readme-img/home2.png)
-![home page](assets/readme-img/home3.png)
+![home page](assets/readme-img/main.png)
 
 The homepage of our site prominently displays an engaging image that captures the essence of our workout sessions. This immediate visual helps users understand why our fitness community is ideal for them. Here's what you can expect:
 
 ### Reasons
-![reasons ](image)
+![reasons ](assets/readme-img/reasons.png)
 - **Reasons**: Each reason to become a part of our community is thoroughly explained, making it easy for users to understand the benefits we offer.
 ### Testimonials
-![testimonials](image)
+![testimonials](assets/readme-img/testimonials.png)
 - **Testimonials**: Statements from members who have joined our community, sharing their experiences and feedback about what makes us stand out.
 
 [Back to top](<#table-of-contents>)
 
 ### Abour Us page
-![home page](assets/readme-img/home2.png)
-![home page](assets/readme-img/home3.png)
+![About us page](assets/readme-img/about.png)
 
 - **About Us Statement**: A concise description of who we are and what our community does helps users quickly grasp our mission. The page also features an image of a group of people engaged in road work, illustrating our active lifestyle. Additionally, users can navigate to other links for more detailed information, ensuring each page is clear and easily understandable.
 
 [Back to top](<#table-of-contents>)
 
 ### offers page
-![Offer page](assets/readme-img/offers2.png)
+![Offer page](assets/readme-img/offers.png)
 
 The Offer page on the `Health is Wealth` website showcases clear images of all our activities along with detailed descriptions. Users can explore and choose to join one or more of our offered activities, which are outlined below:
 - **Aerobics**
@@ -165,7 +165,7 @@ The Offer page on the `Health is Wealth` website showcases clear images of all o
 [Back to top](<#table-of-contents>)
 
 ### Contact page
-![contact Page](assets/readme-img/contact2.png)
+![contact Page](assets/readme-img/contact-page.png)
 
 The Contact page is designed with two important features to enhance user interaction:
 
@@ -185,7 +185,7 @@ Footer is easily accessed on all pages, to enhance a good user interface we made
 [Back to top](<#table-of-contents>)
 
 ### Confirmation page
-![Confirmation page](assets/readme-img/Thanks2.png)
+![Confirmation page](assets/readme-img/confirmation.png)
 
 The Confirmation page indicates that your email has been successfully received, and we will get back to you shortly. This page provides reassurance and ensures that you know your message is in good hands.
 
@@ -202,6 +202,9 @@ The Confirmation page indicates that your email has been successfully received, 
 
 [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fein-1.github.io%2Fhealth-is-wealth%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 ![Jigsaw validator](assets/testing/css-validator.png)
+
+[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/report#/https://ein-1.github.io/health-is-wealth)
+![wave.webaim.org](assets/testing/wave-test.png)
 
 [Google Lighthouse](https://pagespeed.web.dev/analysis/https-ein-1-github-io-health-is-wealth/1iwt5z7gv0?form_factor=mobile&category=performance&category=accessibility&category=best-practices&category=seo&hl=en-GB&utm_source=lh-chrome-ext)
 ![lighthouse](assets/testing/lighthouse.png)
@@ -287,9 +290,19 @@ the browsers below.
 
 
 ## Deployment
+### **To deploy the project**
+The site was deployed to GitHub pages. The steps to deploy a site are as follows:
+  1. In the GitHub repository, navigate to the **Settings** tab.
+  2. Once in Settings, navigate to the **Pages** tab on the left hand side.
+  3. Under **Source**, select the branch to **main**, then click **save**.
+  4. Once the main branch has been selected, the page will be automatically refreshed with a display to indicate the successful deployment.
+
+![GitHub pages deployed image](assets/readme-img/deployment.png)
+
+  The live link to the Github repository can be found here -  https://ein-1.github.io/health-is-wealth/
 ## Fork
 ### How To Fork The Repository On GitHub
-![Fork](/fork.png)
+![Fork](assets/readme-img/fork.png)
 It is possible to do a copy of a GitHub Repository by forking the GitHub account. The copy can then be viewed and it is also possible to do changes in the copy without affecting the original repository. To fork the repository, take these steps:
 
 1. After logging in to GitHub, locate the repository. On the top right side of the page there is a 'Fork' button. Click on the button to create a copy of the original repository.
@@ -298,7 +311,7 @@ It is possible to do a copy of a GitHub Repository by forking the GitHub account
 
 ## Clone
 ### Create A Local Clone of A Project
-![Clone](/clone.png)
+![Clone](assets/readme-img/clone.png)
 To create a local clone of your repository, follow these steps:
 
 1. When you are in the repository, find the code tab and click it.
