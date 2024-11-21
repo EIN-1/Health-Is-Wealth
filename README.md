@@ -11,8 +11,8 @@ At Health is Wealth, we combine effective workouts with fun, making our gym sess
 ![Health is wealth responsive design](assets/readme-img/home1.png)
 This website was designed and responds to all network devices to enhance flexibily to users.
 
-# Index – Table of Contents
-* [**User Experience (UX)**](#user-experience-ux)
+# [Table of Contents](#table-of-contents)
+* [**User Experience (UX)**](<#user-experience-ux>)
     * [**User Stories**](<#user-stories>)
     * [**Wireframes**](<#wireframes>)
     * [**Site Structure**](<#site-structure>)
@@ -20,8 +20,8 @@ This website was designed and responds to all network devices to enhance flexibi
         * [**Typography**](<#typography>)
         * [**Colour Scheme**](<#colour-scheme>)
 * [**Features**](<#features>)
-    * [**Home**](<#navigation-menu>)
-         * [Navigation menu](<#navigation-menu>)
+    * [**Home**](<#navigation-bar>)
+         * [Navigation Bar](<#navigation-bar>)
          * [Reasons ](<#reasons >)
          * [Testimonials](<#testimonials>)
          * [Footer](<#footer>)
@@ -40,6 +40,11 @@ This website was designed and responds to all network devices to enhance flexibi
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
+    * [**W3C Validation**](<#w3c-validation>)
+    * [**Manual Form Testing**](<#manual-form-testing>)
+    * [**Responsiveness Test**](<#responsiveness-test>)
+    * [**Browser Compatibility**](<#browser-compatibility>)
+    * [**Testing User Stories**](<#testing-user-stories>)
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
     * [**Content**](<#content>)
@@ -77,7 +82,13 @@ This website was designed and responds to all network devices to enhance flexibi
 
 The wireframes for `Health is wealth` were produced in <a href="https://balsamiq.cloud/s1zt7dl/p9ow423/r18E1" target="_blank" rel="noopener">Balsamiq</a>. There are frames for a website display and a small mobile device. The final site is slightly different from the wireframes due to developments, I made an effort to maintain consistency with but the final site display.
 
+[Back to top](<#table-of-contents>)
 ## Site Structure
+The **Health is Wealth** website consists of four main pages:
+- **Home**: The default landing page featuring our core message and community visuals.
+- **Offers**: Details the various workout activities available.
+- **About Us**: Provides insights into our mission, story, and community.
+- **Contact**: Includes a form for inquiries and a timetable with location information.
 
 ## Design Choices
 
@@ -120,14 +131,17 @@ The Navigation bar serves as the header and is easily accessible on all pages. I
 
 [Back to top](<#table-of-contents>)
 
-### Home page
+### Home
 ![home page](assets/readme-img/home2.png)
 ![home page](assets/readme-img/home3.png)
 
 The homepage of our site prominently displays an engaging image that captures the essence of our workout sessions. This immediate visual helps users understand why our fitness community is ideal for them. Here's what you can expect:
 
-- **Reasons to Join Us**: Each reason to become a part of our community is thoroughly explained, making it easy for users to understand the benefits we offer.
-
+### Reasons
+![reasons ](image)
+- **Reasons**: Each reason to become a part of our community is thoroughly explained, making it easy for users to understand the benefits we offer.
+### Testimonials
+![testimonials](image)
 - **Testimonials**: Statements from members who have joined our community, sharing their experiences and feedback about what makes us stand out.
 
 [Back to top](<#table-of-contents>)
@@ -197,7 +211,10 @@ The site was also tested using [Google Lighthouse](https://developers.google.com
 * Accessibility - Is the site acccessible for all users and how can it be improved.
 * Best Practices - Site conforms to industry best practices.
 * SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
-### Form error testing
+
+[Back to top](<#table-of-contents>)
+
+### manuel form testing
 ![Form error testing](assets/testing/formTesting.png)
 Here we minimized user's form errors before it'S submited to us,this was made to enhance user interface.
 
@@ -234,7 +251,7 @@ the browsers below.
 - Microsoft Edge - Version 124.0.2478.80 (Official build) (64-bit)
 - Mozilla Firefox - 127.0 (64-bit)
 
-[Back to top](<#table-of-content>)
+[Back to top](<#table-of-contents>)
 
 ## Testing User Stories
 
@@ -300,7 +317,7 @@ the browsers below.
 - [**Git**](https://git-scm.com/doc) - Managed source code changes with commits and pushed updates to GitHub.
 - [**GitHub**](https://github.com/) - Served as the platform for version control and project repository hosting.
 
-[Back to top](<#contents>)
+[Back to top](<#table-of-contents>)
 
 # Acknowledgements
 The site was created as part of the **Portfolio 1 Project** for the **Full Stack Software Developer** program at the [Code Institute](https://codeinstitute.net/). 🎉 
@@ -312,5 +329,5 @@ I would like to extend my heartfelt gratitude to my mentor, [Precious Ijege](htt
 
 Elsie Nagawa 2024.
 
-[Back to top](<#contents>)
+[Back to top](<#table-of-contents>)
 
