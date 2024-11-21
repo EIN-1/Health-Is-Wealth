@@ -35,15 +35,17 @@ This website was designed and responds to all network devices to enhance flexibi
     * [**Contact**](<#contact>)
         * Timetable with location map
         * Contact form with Contact details
-    * [**Form Confirmation**](<#form-confirmation>)
-        * Thank for reaching us message
+    * [**Confirmation page**](<#confirmation-page>)
+        * Thank for reaching us
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
     * [**Content**](<#content>)
-    * [**Media**](<#media>)
+    * [**Tools**](<#tools>)
+    * [**Languages and Frameworks**](<#languages-and-frameworks>)
+    * [**Version Control and Hosting**](<#version-control-and-hosting>)
 * [**Acknowledgements**](<#acknowledgements>)
 
 # User Experience (UX)
@@ -267,44 +269,36 @@ the browsers below.
 [Back to top](<#table-of-contents>)
 
 
-## Main Language
-- Python Language
-
-## Frameworks, Libraries & Programs
-
-- [**AmIResponsive**](https://ui.dev/amiresponsive) - the responsive preview image on different gadgets.
-- [**iloveimg**](https://www.iloveimg.com/) - compresed the images.
-- [**Google Fonts**](https://fonts.google.com/) site was used to pick the best typography style. The most importance was given to balance between style and readability. As a developer I needed to ensure that all text is displayed clear.
-- [**Balsamiq**](https://balsamiq.cloud/s1zt7dl/p9ow423/r18E1) - create wireframe design for this website.
-- [**Python**](https://www.python.org/) - main BackEnd programming language of the project.
-- [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML) - templates programming language of this project (FrontEnd).
-- [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS) - styling the project.
-- [**Gitpod**](https://gitpod.com/) - online IDE - gitpod was used to create this project.
-- [**Git**](https://git-scm.com/doc) - to make commitments of progress and push the results back to GitHub.
-- [**GitHub**](https://github.com/) - to keep the track of version control.
-- [**Google Fonts**](https://fonts.google.com/) - used for picking the best typography.
-- [**FavIcon.io**](https://favicon.io/favicon-generator/) - used to generate favicon.
-- [**W3Schools**](https://www.w3schools.com/) - useful information and cheat sheets.
-- [**webaim.**](https://wave.webaim.org/report#/https://ein-1.github.io/health-is-wealth) - used to check for errors and color contrast.
-- [**coolors**](https://coolors.co/contrast-checker/) - used to check color contrast.
-
-[Back to top](<#table-of-contents>)
-
 ## Deployment
+
 
 ## Credits
 ### Content
+- The fonts were sourced from [Google Fonts](https://fonts.google.com/).
+- The map is embedded from [Google Maps](https://www.google.com/maps).
+- Icons were provided by [Font Awesome](https://fontawesome.com/).
+- The color palette was compiled by [Coolors](https://coolors.co/).
+- The code for Safari-specific styling was inspired by an example on [Stack Overflow](https://stackoverflow.com/).
+- The photos all came from [Pexels](https://www.pexels.com/).
+- The photos were compressed using [iloveimg](https://www.iloveimg.com/).
 
-* The font came from [Google Fonts](https://fonts.google.com/).
-* The map is embedded from [Google Maps](https://www.google.com/maps).
-* The icons came from [Font Awesome](https://fontawesome.com/).
-* [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
-* The colour palate was compiled by [Coolors](https://coolors.co/).
-* The code for the Safari specific styling was inspired by an example on [Stack Overflow](https://stackoverflow.com/).
+### Tools
+- [**AmIResponsive**](https://ui.dev/amiresponsive) - Used for generating the responsive preview image on different devices.
+- [**Balsamiq**](https://balsamiq.com/wireframes/) - Utilized to create the wireframe design for the website.
+- [**FavIcon.io**](https://favicon.io/favicon-generator/) - Used to generate the favicon.
+- [**iloveimg**](https://www.iloveimg.com/) - Utilized for compressing images to optimize performance.
+- [**Gitpod**](https://gitpod.com/) - Online IDE used for developing the project.
+- [**Wave by WebAIM**](https://wave.webaim.org/) - Checked for errors and color contrast to ensure accessibility.
+- [**Coolors**](https://coolors.co/contrast-checker/) - Used to create and check color palettes.
 
-### Media
-* The photos all came from , [pexels](https://www.pexels.com/).
-* The photos were compressed using [iloveimg](https://www.iloveimg.com/).
+### Languages and Frameworks
+- [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS) - Employed for styling the project.
+- [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML) - Used as the template language for the FrontEnd of the project.
+- [**Python**](https://www.python.org/) - The main BackEnd programming language employed in this project.
+
+### Version Control and Hosting
+- [**Git**](https://git-scm.com/doc) - Managed source code changes with commits and pushed updates to GitHub.
+- [**GitHub**](https://github.com/) - Served as the platform for version control and project repository hosting.
 
 [Back to top](<#contents>)
 
