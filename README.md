@@ -6,7 +6,7 @@ We believe that fitness knows no age limit; our space is inclusive and welcoming
 At Health is Wealth, we combine effective workouts with fun, making our gym sessions truly exceptional. Our members often recommend us to their friends and family because we prioritize everyone’s fitness journey. Whatever session you choose, you’ll be on the path to achieving the best results! Let's work out together and enjoy the journey to better health!
 
 
-# [View the live project here](https://ein-1.github.io/health-is-wealth/)
+# [View the live project here](https://ein-1.github.io/Health-Is-Wealth/)
 
 ![Health is wealth responsive design](assets/readme-img/responsive.png)
 This website was designed and responds to all network devices to enhance flexibily to users.
